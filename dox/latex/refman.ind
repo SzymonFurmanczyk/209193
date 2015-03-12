@@ -1,0 +1,77 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Benchmark}
+    \subitem {Benchmark}, \hyperpage{10}
+  \item {$\sim $\discretionary {-}{}{}Mnozenie}
+    \subitem {Mnozenie}, \hyperpage{13}
+
+  \indexspace
+
+  \item {algorithm1.\discretionary {-}{}{}cpp}, \hyperpage{15}
+  \item {algorithm1.\discretionary {-}{}{}hh}, \hyperpage{15}
+
+  \indexspace
+
+  \item {Benchmark}, \hyperpage{9}
+    \subitem {$\sim $\discretionary {-}{}{}Benchmark}, \hyperpage{10}
+    \subitem {Benchmark}, \hyperpage{10}
+    \subitem {repeats}, \hyperpage{11}
+    \subitem {run\discretionary {-}{}{}Algorithm}, \hyperpage{10}
+    \subitem {test\discretionary {-}{}{}Algorithm}, \hyperpage{10}
+  \item {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{16}
+    \subitem {L\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}G\discretionary {-}{}{}T\discretionary {-}{}{}H}, 
+		\hyperpage{16}
+  \item {benchmark.\discretionary {-}{}{}hh}, \hyperpage{17}
+    \subitem {S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {generate.\discretionary {-}{}{}cpp}, \hyperpage{17}
+    \subitem {main}, \hyperpage{18}
+    \subitem {S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {L\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}G\discretionary {-}{}{}T\discretionary {-}{}{}H}
+    \subitem {benchmark.\discretionary {-}{}{}cpp}, \hyperpage{16}
+
+  \indexspace
+
+  \item {main}
+    \subitem {generate.\discretionary {-}{}{}cpp}, \hyperpage{18}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{19}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{18}
+    \subitem {main}, \hyperpage{19}
+  \item {Mnozenie}, \hyperpage{11}
+    \subitem {$\sim $\discretionary {-}{}{}Mnozenie}, \hyperpage{13}
+    \subitem {Mnozenie}, \hyperpage{12}
+    \subitem {run\discretionary {-}{}{}Algorithm}, \hyperpage{13}
+    \subitem {tab}, \hyperpage{13}
+    \subitem {test\discretionary {-}{}{}Algorithm}, \hyperpage{13}
+
+  \indexspace
+
+  \item {repeats}
+    \subitem {Benchmark}, \hyperpage{11}
+  \item {run\discretionary {-}{}{}Algorithm}
+    \subitem {Benchmark}, \hyperpage{10}
+    \subitem {Mnozenie}, \hyperpage{13}
+
+  \indexspace
+
+  \item {S\discretionary {-}{}{}I\discretionary {-}{}{}Z\discretionary {-}{}{}E}
+    \subitem {benchmark.\discretionary {-}{}{}hh}, \hyperpage{17}
+    \subitem {generate.\discretionary {-}{}{}cpp}, \hyperpage{18}
+  \item {strona-\/glowna.\discretionary {-}{}{}dox}, \hyperpage{19}
+
+  \indexspace
+
+  \item {tab}
+    \subitem {Mnozenie}, \hyperpage{13}
+  \item {test\discretionary {-}{}{}Algorithm}
+    \subitem {Benchmark}, \hyperpage{10}
+    \subitem {Mnozenie}, \hyperpage{13}
+
+\end{theindex}
