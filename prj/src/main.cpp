@@ -1,7 +1,13 @@
 #include <iostream>
 
 #include "benchmark.hh"
+#include "stos.hh"
+#include "lista.hh"
+#include "kolejka.hh"
 #include "algorithm1.hh"
+#include "algorithm_stos.hh"
+#include "algorithm_kolejka.hh"
+#include "algorithm_lista.hh"
 
 /*!
  *\brief Funkcja tworzaca i testujaca algorytm.
@@ -14,15 +20,20 @@
 int main() {
 
   int data[SIZE];
-  int repeats = 3;
 
   for(int i=0; i<SIZE; ++i)
     std::cin >> data[i];
 
-  Benchmark *bench = new Benchmark(repeats);
+  Benchmark *bench = new Benchmark();
   Mnozenie *pot = new Mnozenie(data);
+  AlgorithmStos *stos = new AlgorithmStos(data);
+  AlgorithmKolejka *kolejka = new AlgorithmKolejka(data);
+  AlgorithmLista *lista = new AlgorithmLista(data);
 
-  bench -> testAlgorithm(pot);
+  bench -> testAlgorithm(pot,0);
+  bench -> testAlgorithm(stos,1);
+  bench -> testAlgorithm(kolejka,2);
+  bench -> testAlgorithm(lista,3);
 
-return 0;
+  return 0;
 }

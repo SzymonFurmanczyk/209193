@@ -10,20 +10,17 @@
  */
 class Benchmark {
 
-  int repeats;
-  
+  /*!
+   *\brief Tablica stringow przechowujaca nazwy plikow do zapisu.
+   */
+  std::string nazwy[4] = {"ret_data1.txt", "ret_data2.txt", "ret_data3.txt", "ret_data4.txt"};
+
 public:
 
   /*!
    *\brief Konstrukor obiektu Benchmark.
    */
   Benchmark() {};
-
-  /*!
-   *\brief Konstruktor parametryczny obiektu Benchmark.
-   *\param[in] _repeats - ilosc powtorzen testu dla pojedynczego zestawu danych.
-   */
-  Benchmark(int _repeats): repeats(_repeats) {}; 
 
   /*!
    *\brief Destruktor obiektu Benchmark.
@@ -38,8 +35,9 @@ public:
    *i usrednia wynik. Otrzymany czas wraz z iloscia testowanych
    *danych zapisuje w pliku ret_data.txt.
    *\param[in] _algorithm - testowany algorytm.
+   *\param[in] _n - indeks nazwy pliku
    */
-  virtual void testAlgorithm(Benchmark *_algorithm) const;
+  virtual void testAlgorithm(Benchmark *_algorithm, int _n) const;
 
   /*!
    *\brief Metoda uruchamiania algorytmu.

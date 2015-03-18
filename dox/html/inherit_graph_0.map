@@ -1,0 +1,7 @@
+<map id="Graficzna hierarchia klas" name="Graficzna hierarchia klas">
+<area shape="rect" id="node1" href="$class_benchmark.html" title="Klasa Benchmark modelujaca program benchmarkujacy. Obiekt tego typu reprezentuje program sprawdzajacy..." alt="" coords="5,81,93,108"/>
+<area shape="rect" id="node2" href="$class_algorithm_kolejka.html" title="Klasa AlgorithmKolejka modelujaca algorytm wczytywania do kolejki. Obiekt tego typu reprezentuje algo..." alt="" coords="141,5,261,32"/>
+<area shape="rect" id="node3" href="$class_algorithm_lista.html" title="Klasa AlgorithmLista modelujaca algorytm wczytywania do kolejki. Obiekt tego typu reprezentuje algory..." alt="" coords="148,56,255,83"/>
+<area shape="rect" id="node4" href="$class_algorithm_stos.html" title="Klasa AlgorithmStos modelujaca algorytm wczytywania do stosu. Obiekt tego typu reprezentuje algorytm ..." alt="" coords="149,107,253,133"/>
+<area shape="rect" id="node5" href="$class_mnozenie.html" title="Klasa Mnozenie modelujaca algorytm mnozenia. Obiekt tego typu reprezentuje algorytm wykonujacy dziala..." alt="" coords="163,157,240,184"/>
+</map>

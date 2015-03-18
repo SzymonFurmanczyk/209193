@@ -2,12 +2,15 @@
 #define ALGORITHM1_HH
 
 /*!
- *\brief Klasa Mnozenie modelujaca algorytm potegowania.
+ *\brief Klasa Mnozenie modelujaca algorytm mnozenia.
  *Obiekt tego typu reprezentuje algorytm wykonujacy dzialanie
  *mnozenia kazdego elementu tablicy tab przez 2.
  */
 class Mnozenie: public Benchmark {
 
+  /*!
+   *\brief Tablica elementow z danymi wejsciowymi.
+   */ 
   int tab[SIZE];
 
 public:
@@ -20,7 +23,7 @@ public:
    *\brief Konstruktor parametryczny obiektu Mnozenie.
    *\param[in] _tab - tablica przechowujaca dane wejsciowe.
    */
-  Mnozenie(int _tab[SIZE]) {for(int i=0; i<SIZE; ++i) tab[i]=_tab[i];};
+  Mnozenie(int _tab[]) {for(int i=0; i<SIZE; ++i) tab[i]=_tab[i];};
   
   /*!
    *\brief Destruktor obiektu Mnozenie.

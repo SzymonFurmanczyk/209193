@@ -5,18 +5,19 @@
 #include "benchmark.hh"
 
 #define LENGTH 5
+#define REPEATS 5
 
 /* Funkcja testowania szybkosci dzialania algorytmu */
-void Benchmark::testAlgorithm(Benchmark *_algorithm) const{
+void Benchmark::testAlgorithm(Benchmark *_algorithm, int _n) const{
 
   int j=1000;
   int average=0;
 
-  std::ofstream ret_data("ret_data.txt");
+  std::ofstream ret_data(nazwy[_n]);
   if (ret_data.is_open()){
     ret_data << "elem\ttime" << std::endl;
     for(int i=1; i<=LENGTH; ++i ){
-      for(int k=1; k<=repeats; ++k){
+      for(int k=1; k<=REPEATS; ++k){
 	std::chrono::high_resolution_clock::time_point start_time = std::chrono::high_resolution_clock::now();
   
 	_algorithm -> runAlgorithm(j);
@@ -27,7 +28,7 @@ void Benchmark::testAlgorithm(Benchmark *_algorithm) const{
 	//std::cout << "Czas: " << std::chrono::duration_cast<std::chrono::microseconds>(time_period).count() << "mikrosek" << std::endl;
 	average += std::chrono::duration_cast<std::chrono::microseconds>(time_period).count();
       }
-      average /= repeats;
+      average /= REPEATS;
 
       ret_data << j << "\t" << average << std::endl;
 
@@ -36,5 +37,5 @@ void Benchmark::testAlgorithm(Benchmark *_algorithm) const{
     }
     ret_data.close();
   }
-  else std::cout << "Unable to open ret_data file" << std::endl;
+  else std::cerr << "Unable to open ret_data file" << std::endl;
 }

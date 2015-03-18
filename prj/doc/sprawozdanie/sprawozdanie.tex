@@ -4,37 +4,69 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 
-\title{}
-\author{}
-\date{}
+\title{Laboratorium 2}
+\author{Filip Malinowski}
+\date{\today}
 
 \pdfinfo{%
-  /Title    (lab1)
+  /Title    (Laboratorium 2)
   /Author   (Filip Malinowski)
 }
 
 \begin{document}
 
-\title{Sprawozdanie z lab1}
+\title{Sprawozdanie z laboratorium 2}
 \author{Filip Malinowski}
 \date{\today}
 
 \maketitle
 
 W zadaniu są dwa programy. Pierwszy generuje dane wejściowe.
-Drugi, właściwy uruchamia algorytm mnożenia każdego elementu
-tablicy przez 2. Oba programy uruchamiane są przez Makefile.
-W tej wersji nie wspiera różnej ilości danych wejściowych.
+Drugi jest odpowiedzialny za uruchamianie kolejno czterech
+algorytm. Oba programy uruchamiane są przez Makefile.
+Ilość danych wejściowych jest konfigurowana w kodzie źródłowym.
 Program testujący algorytm składa się z klasy bazowej
-Benchmark i klasy pochodnej Mnożenie. Klasa Benchmark ma
-zdefiniowaną metodę testowania szybkości działania
-algorytmów. W tej metodzie czas jest wyznaczany za pomocą
-high resolution clock z biblioteki chrono. Następie tworzony
-jest plik wyjściowy, do którego zapisywane są dane o ilości
-testowanych elementów oraz czasie wykonywania algorytmu.
+Benchmark i klas pochodnych:
+\begin{itemize}
+ \item Mnozenie
+ \item AlgorithmStos
+ \item AlgorithmKolejka
+ \item AlgorithmLista
+\end{itemize}
 
-Załączony wykres szybkości działania algorytmu:
+Klasa Benchmark wyznacza odstęp czasowy za pomocą pomiaru czasu
+przy użyciu biblioteki chrono. Następie tworzone są 4 pliki
+wyjściowe, do których zapisywane są dane o szybkości wykonanych
+algorytmów. Dane zapisywane są odpowiednio:
+\begin{enumerate}
+ \item mnożenie n elementów tablicy przez 2 - ret data1.txt
+ \item wprowadzanie do stosu n elementów - ret data2.txt
+ \item wprowadzanie do kolejki n elementów - ret data3.txt
+ \item wprowadzanie do listy n elementów - ret data4.txt
+\end{enumerate}
 
-\includegraphics[scale=0.3]{ret_data}
+\begin{figure}
+ \centering
+  \includegraphics[scale=0.4]{ret_data1}
+ \caption{Wykres dla mnożenia elementów tablicy przez 2}
+\end{figure}
+
+\begin{figure}
+ \centering
+  \includegraphics[scale=0.4]{ret_data2}
+ \caption{Wykres dla wczytywania n elementów do stosu}
+\end{figure}
+
+\begin{figure}
+ \centering
+  \includegraphics[scale=0.4]{ret_data3}
+ \caption{Wykres dla wczytywania n elementów do kolejki}
+\end{figure}
+
+\begin{figure}
+ \centering
+  \includegraphics[scale=0.4]{ret_data4}
+ \caption{Wykres dla wczytywania n elementów do listy}
+\end{figure}
 
 \end{document}
