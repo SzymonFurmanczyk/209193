@@ -1,7 +1,7 @@
 var NAVTREE =
 [
-  [ "lab2", "index.html", [
-    [ "Laboratorium 2", "index.html", null ],
+  [ "lab3", "index.html", [
+    [ "Laboratorium 3", "index.html", null ],
     [ "Klasy", null, [
       [ "Lista klas", "annotated.html", "annotated" ],
       [ "Indeks klas", "classes.html", null ],
@@ -25,7 +25,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"algorithm1_8cpp.html"
+"algorithm2_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

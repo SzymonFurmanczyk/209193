@@ -33,7 +33,7 @@ struct \hyperlink{struct_lista_1_1_komorka}{Komorka}
 \begin{DoxyCompactList}\small\item\em Destruktor obiektu \hyperlink{class_lista}{Lista}. \end{DoxyCompactList}\item 
 void \hyperlink{class_lista_acec8ac807da644d8250c3c6043a208e1}{insert} (int \-\_\-elem)
 \begin{DoxyCompactList}\small\item\em Metoda dodawnia elementu. Metoda sluzy do dodawania elementu do konca listy. \end{DoxyCompactList}\item 
-void \hyperlink{class_lista_aa30ec43a5b51a0e37ffe8f098c5dcaa8}{remove} (int \-\_\-f)
+int \hyperlink{class_lista_a18ce18bccb1af9b8d818f103021d7b4a}{remove} (int \-\_\-f)
 \begin{DoxyCompactList}\small\item\em Metoda usuwania elementu. Metoda sluzy do usuwania elementu o wskazanym indeksie. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Atrybuty prywatne}
 \begin{DoxyCompactItemize}
@@ -104,18 +104,21 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{figure}
 
 
-\hypertarget{class_lista_aa30ec43a5b51a0e37ffe8f098c5dcaa8}{\index{Lista@{Lista}!remove@{remove}}
+\hypertarget{class_lista_a18ce18bccb1af9b8d818f103021d7b4a}{\index{Lista@{Lista}!remove@{remove}}
 \index{remove@{remove}!Lista@{Lista}}
-\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-::remove (
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}int Lista\-::remove (
 \begin{DoxyParamCaption}
 \item[{int}]{\-\_\-f}
 \end{DoxyParamCaption}
-)}}\label{class_lista_aa30ec43a5b51a0e37ffe8f098c5dcaa8}
+)}}\label{class_lista_a18ce18bccb1af9b8d818f103021d7b4a}
 
 \begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em \-\_\-f} & -\/ indeks elementu do usuniecia. \\
 \hline
 \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+-\/ usuwany element. 
+\end{DoxyReturn}
 
 
 Definicja w linii 19 pliku lista.\-cpp.

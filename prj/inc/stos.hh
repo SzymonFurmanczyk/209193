@@ -31,7 +31,7 @@ class Stos {
    *\brief Metoda pomniejszania stosu.
    *Metoda ta odejmuje od stosu jedno pole.
    */
-  void decrease();
+  int decrease();
 
 public:
 
@@ -61,8 +61,9 @@ public:
   /*!
    *\brief Metoda usuwania elementu.
    *Metoda sluzy do usuwania elementu ze stosu.
+   *\return - usuwany element.
    */
-  void pop();
+  int pop();
 };
 
 #endif

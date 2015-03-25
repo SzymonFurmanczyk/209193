@@ -64,8 +64,9 @@ public:
    *\brief Metoda usuwania elementu.
    *Metoda sluzy do usuwania elementu o wskazanym indeksie.
    *\param[in] _f - indeks elementu do usuniecia.
+   *\return - usuwany element.
    */
-  void remove(int _f);
+  int remove(int _f);
 };
 
 #endif

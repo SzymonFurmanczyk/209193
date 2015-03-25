@@ -3,8 +3,8 @@
 #include "kolejka.hh"
 
 Kolejka::Kolejka() {
-  size = 8;
-  f = -1;//-1 bo tablica pusta
+  size = 8;//poczatkowy rozmiar kolejki
+  f = -1;//-1 bo tablica pusta, indeks pierwszego zapisanego miejsca
   r = 0;//indeks nastepnego pustego miejsca
  
   tab = new int[size];
@@ -25,47 +25,39 @@ Kolejka::~Kolejka() {
 }
 
 void Kolejka::increase() {
-  int *nowa = new int[size + 8];
+  int *nowa = new int[size + 8];//nowa lista przechowujaca kolejke, wieksza o 8
 
-  for(int i=0; i<r; ++i) nowa[i] = tab[i];
-  for(int i=r+8; i<(size+8); ++i) nowa[i] = tab[i];
-
+  for(int i=0; i<r; ++i) nowa[i] = tab[i];//przepisujemy w taki sposob, zeby rozszerzyc tablice pomiedzy
+  for(int i=r+8; i<(size+8); ++i) nowa[i] = tab[i];//iteratorami r i f
+  
   delete []tab; 
   tab = nowa;
 
-  f += 8;
-  size +=8;
-}
-
-void Kolejka::decrease() {
-  int *nowa = new int[size - 1];
-
-  for(int i=0; i<f; ++i) nowa[i] = tab[i];//przepisujemy do elementu przed f
-  for(int i=f+1; i<(size-1); ++i) nowa[i] = tab[i];//kontynuujemy przepisywanie
-  //od pierwszego elementu po f
-
-  delete []tab;
-  tab = nowa;
-  --size;
+  f += 8;//po rozszerzeniu przesuwamy f o 8 miejsc dalej
+  size +=8;//zwiekszamy rozmiar
 }
 
 void Kolejka::enqueue(int _elem) {
-  if(r == f) increase();
+  if(r == f) increase();//przy zapelnieniu powiekszamy kolejke
   
   tab[r] = _elem;
-  ++f;
+  if(f == -1) ++f;//sprawdzamy czy kolejka byla inicjalizowana
+  ++r;//przesuwamy wolne miejsce o 1 dalej
 }
 
 int Kolejka::dequeue() {
 
+  int temp = tab[f];//zmienna przechowujaca usuwany element
+
+  //przesuwamy indeks zapisanego elementu o 1 miejsce dalej
   if(f != -1) {//sprawdzamy czy lista niepusta
     if(f != (size-1)) ++f;//sprawdzamy czy nie jestesmy na koncu listy
     else f = 0;//jezeli tak to przesuwamy sie na poczatek
   }
   else {
-    std::cerr << "Blad dequeue! Tablica pusta!" << std::endl;
+    std::cerr << "Blad dequeue! Lista pusta!" << std::endl;
     return -1;
   }
 
-  return tab[f-1];
+  return temp;//zwracamy usuwany element
 }

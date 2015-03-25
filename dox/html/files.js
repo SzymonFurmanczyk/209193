@@ -1,8 +1,8 @@
 var files =
 [
-    [ "algorithm1.cpp", "algorithm1_8cpp.html", null ],
-    [ "algorithm1.hh", "algorithm1_8hh.html", [
-      [ "Mnozenie", "class_mnozenie.html", "class_mnozenie" ]
+    [ "algorithm2.cpp", "algorithm2_8cpp.html", null ],
+    [ "algorithm2.hh", "algorithm2_8hh.html", [
+      [ "Algorithm2", "class_algorithm2.html", "class_algorithm2" ]
     ] ],
     [ "algorithm_kolejka.cpp", "algorithm__kolejka_8cpp.html", null ],
     [ "algorithm_kolejka.hh", "algorithm__kolejka_8hh.html", [
@@ -32,5 +32,9 @@ var files =
     [ "stos.cpp", "stos_8cpp.html", null ],
     [ "stos.hh", "stos_8hh.html", [
       [ "Stos", "class_stos.html", "class_stos" ]
+    ] ],
+    [ "tab_lista.cpp", "tab__lista_8cpp.html", null ],
+    [ "tab_lista.hh", "tab__lista_8hh.html", [
+      [ "TabLista", "class_tab_lista.html", "class_tab_lista" ]
     ] ]
 ];

@@ -28,34 +28,37 @@ void Stos::push(int _elem) {
   if(last == size) increase();
 
   tab[last] = _elem;
-  last++;
+  ++last;
   
 }
 
-void Stos::pop() {
+int Stos::pop() {
 
-  decrease();
+  int temp=decrease();
   --last;
+  return temp;
 }
 
 void Stos::increase() {
 
-  int *nowa = new int[size * 2];
+  int *nowa = new int[size + 8];//tworzymy zastepczy stos o 8 wiekszy
 
-  for(int i=0; i<size; ++i) nowa[i] = tab[i];
+  for(int i=0; i<size; ++i) nowa[i] = tab[i];//przepisujemy stary stos
 
   delete []tab;
   tab = nowa;
-  size *= 2;
+  size += 8;//powiekszamy zmienna przechowujaca informacje o rozmiarze o 8
 }
 
-void Stos::decrease() {
+int Stos::decrease() {
+  int temp = tab[size-1];//zmienna tymczasowa przechowujaca usuwany element
+  --size;//pomniejszamy zmienna przechowujaca informacje o rozmiarze o 1
+  int *nowa = new int[size];//tworzymy zastepczy stos o 1 mniejszy
 
-  --size;
-  int *nowa = new int[size];
-
-  for(int i=0; i<size; ++i) nowa[i] = tab[i];
+  for(int i=0; i<size; ++i) nowa[i] = tab[i];//przepisujemy stary stos
 
   delete []tab;
   tab = nowa;
+
+  return temp;//zwracamy usuwany element
 }

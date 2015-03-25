@@ -32,13 +32,6 @@ class Kolejka {
    */
   void increase();
 
-  /*!
-   *\brief Metoda pomniejszania kolejki.
-   *Metoda ta odejmuje od kolejki jedno pole pomiedzy
-   *pierwszym a ostatnim zapisanym elementem.
-   */
-  void decrease();
-
 public:
 
   /*!
@@ -67,6 +60,7 @@ public:
   /*!
    *\brief Metoda usuwania elementu.
    *Metoda sluzy do usuwania elementu z kolejki.
+   *\return - usuwany element.
    */
   int dequeue();
 };

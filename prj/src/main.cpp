@@ -2,12 +2,13 @@
 
 #include "benchmark.hh"
 #include "stos.hh"
-#include "lista.hh"
 #include "kolejka.hh"
-#include "algorithm1.hh"
+#include "lista.hh"
+#include "tab_lista.hh"
 #include "algorithm_stos.hh"
 #include "algorithm_kolejka.hh"
 #include "algorithm_lista.hh"
+#include "algorithm2.hh"
 
 /*!
  *\brief Funkcja tworzaca i testujaca algorytm.
@@ -24,16 +25,16 @@ int main() {
   for(int i=0; i<SIZE; ++i)
     std::cin >> data[i];
 
-  Benchmark *bench = new Benchmark();
-  Mnozenie *pot = new Mnozenie(data);
-  AlgorithmStos *stos = new AlgorithmStos(data);
-  AlgorithmKolejka *kolejka = new AlgorithmKolejka(data);
-  AlgorithmLista *lista = new AlgorithmLista(data);
+  //Benchmark *bench = new Benchmark();//klasa testujaca czas
+  //AlgorithmStos *stos = new AlgorithmStos(data);
+  //AlgorithmKolejka *kolejka = new AlgorithmKolejka(data);
+  //AlgorithmLista *lista = new AlgorithmLista(data);
+  //Algorithm2 *tablista = new Algorithm2(data);
 
-  bench -> testAlgorithm(pot,0);
-  bench -> testAlgorithm(stos,1);
-  bench -> testAlgorithm(kolejka,2);
-  bench -> testAlgorithm(lista,3);
+  //bench -> testAlgorithm(stos,0);
+  //bench -> testAlgorithm(kolejka,1);
+  //bench -> testAlgorithm(lista,2);
+  //bench -> testAlgorithm(tablista,3);
 
   return 0;
 }

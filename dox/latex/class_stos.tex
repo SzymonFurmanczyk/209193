@@ -21,14 +21,14 @@ Klasa \hyperlink{class_stos}{Stos} modelujaca strukture danych typu stos. Obiekt
 \begin{DoxyCompactList}\small\item\em Destruktor obiektu \hyperlink{class_stos}{Stos}. \end{DoxyCompactList}\item 
 void \hyperlink{class_stos_afd5802e405946328cccca3eed676b493}{push} (int \-\_\-elem)
 \begin{DoxyCompactList}\small\item\em Metoda dodawnia elementu. Metoda sluzy do dodawania elementu do stosu. \end{DoxyCompactList}\item 
-void \hyperlink{class_stos_a88b0da41b49ef4d4b63cfd4924665683}{pop} ()
+int \hyperlink{class_stos_aabb14b8a389c55da6e2b50fbb179ed56}{pop} ()
 \begin{DoxyCompactList}\small\item\em Metoda usuwania elementu. Metoda sluzy do usuwania elementu ze stosu. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Metody prywatne}
 \begin{DoxyCompactItemize}
 \item 
 void \hyperlink{class_stos_aaf6e4717d1983c5351c9f5e9797368d3}{increase} ()
 \begin{DoxyCompactList}\small\item\em Metoda powiekszania stosu. Metoda ta dodaje do stosu 8 kolejnych wolnych pol. \end{DoxyCompactList}\item 
-void \hyperlink{class_stos_a29453758c37530dac9de0e795ba97267}{decrease} ()
+int \hyperlink{class_stos_a1054dda0231b2516b6a04298801c0b27}{decrease} ()
 \begin{DoxyCompactList}\small\item\em Metoda pomniejszania stosu. Metoda ta odejmuje od stosu jedno pole. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Atrybuty prywatne}
 \begin{DoxyCompactItemize}
@@ -90,16 +90,16 @@ Definicja w linii 23 pliku stos.\-cpp.
 
 
 \subsection{Dokumentacja funkcji składowych}
-\hypertarget{class_stos_a29453758c37530dac9de0e795ba97267}{\index{Stos@{Stos}!decrease@{decrease}}
+\hypertarget{class_stos_a1054dda0231b2516b6a04298801c0b27}{\index{Stos@{Stos}!decrease@{decrease}}
 \index{decrease@{decrease}!Stos@{Stos}}
-\subsubsection[{decrease}]{\setlength{\rightskip}{0pt plus 5cm}void Stos\-::decrease (
+\subsubsection[{decrease}]{\setlength{\rightskip}{0pt plus 5cm}int Stos\-::decrease (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_stos_a29453758c37530dac9de0e795ba97267}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_stos_a1054dda0231b2516b6a04298801c0b27}
 
 
-Definicja w linii 52 pliku stos.\-cpp.
+Definicja w linii 53 pliku stos.\-cpp.
 
 
 
@@ -107,7 +107,7 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=256pt]{class_stos_a29453758c37530dac9de0e795ba97267_icgraph}
+\includegraphics[width=256pt]{class_stos_a1054dda0231b2516b6a04298801c0b27_icgraph}
 \end{center}
 \end{figure}
 
@@ -121,7 +121,7 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 )\hspace{0.3cm}{\ttfamily [private]}}}\label{class_stos_aaf6e4717d1983c5351c9f5e9797368d3}
 
 
-Definicja w linii 41 pliku stos.\-cpp.
+Definicja w linii 42 pliku stos.\-cpp.
 
 
 
@@ -134,13 +134,16 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{figure}
 
 
-\hypertarget{class_stos_a88b0da41b49ef4d4b63cfd4924665683}{\index{Stos@{Stos}!pop@{pop}}
+\hypertarget{class_stos_aabb14b8a389c55da6e2b50fbb179ed56}{\index{Stos@{Stos}!pop@{pop}}
 \index{pop@{pop}!Stos@{Stos}}
-\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}void Stos\-::pop (
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}int Stos\-::pop (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}}\label{class_stos_a88b0da41b49ef4d4b63cfd4924665683}
+)}}\label{class_stos_aabb14b8a389c55da6e2b50fbb179ed56}
+\begin{DoxyReturn}{Zwraca}
+-\/ usuwany element. 
+\end{DoxyReturn}
 
 
 Definicja w linii 35 pliku stos.\-cpp.
@@ -151,7 +154,7 @@ Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=256pt]{class_stos_a88b0da41b49ef4d4b63cfd4924665683_cgraph}
+\includegraphics[width=256pt]{class_stos_aabb14b8a389c55da6e2b50fbb179ed56_cgraph}
 \end{center}
 \end{figure}
 
