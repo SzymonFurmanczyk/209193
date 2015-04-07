@@ -4,13 +4,13 @@
 
 #include "benchmark.hh"
 
-#define LENGTH 8//"ile razy pomnozymy przez 10 - patrz linijka 19 i 35"
-#define REPEATS 3//ilosc powtorzen dla obliczenia sredniej - patrz linijka 20"
+#define LENGTH 1//"ile razy pomnozymy przez 10 - patrz linijka 19 i 35"
+#define REPEATS 1//ilosc powtorzen dla obliczenia sredniej - patrz linijka 20"
 
 /* Funkcja testowania szybkosci dzialania algorytmu */
 void Benchmark::testAlgorithm(Benchmark *_algorithm, int _n) const{
 
-  int j=1;//startowa ilosc elementow
+  int j=100;//startowa ilosc elementow
   int average=0;//inicjalizacja zmiennej przechowujacej sredni czas dzialania
 
   std::ofstream ret_data(nazwy[_n]);
@@ -18,10 +18,13 @@ void Benchmark::testAlgorithm(Benchmark *_algorithm, int _n) const{
     ret_data << "elem\ttime" << std::endl;//zapisujemy naglowek pliku
     for(int i=1; i<=LENGTH; ++i ){
       for(int k=1; k<=REPEATS; ++k){
-	std::chrono::high_resolution_clock::time_point start_time = std::chrono::high_resolution_clock::now();
-  
+	
 	_algorithm -> runAlgorithm(j);//wykonujemy algorytm
-  
+	
+	std::chrono::high_resolution_clock::time_point start_time = std::chrono::high_resolution_clock::now();
+	/*
+	_algorithm -> runAlgorithmSzybkieSortowanie(j);//wykonujemy algorytm
+	*/
 	std::chrono::high_resolution_clock::time_point end_time = std::chrono::high_resolution_clock::now();
 	std::chrono::high_resolution_clock::duration time_period = end_time - start_time;
 

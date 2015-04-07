@@ -59,6 +59,12 @@ public:
    *\return - usuwany element.
    */
   int remove(int _f);
+
+  int rozmiar();
+
+  void quicksort(int a,int b);
+
+
 };
 
 #endif

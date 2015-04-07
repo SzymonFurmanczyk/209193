@@ -53,3 +53,46 @@ int TabLista::remove(int _f) {
 
   return temp;//zwracamy usuwany element
 }
+
+void TabLista::quicksort(int lewy,int prawy) {
+
+  int srodek=(lewy+prawy)/2;
+
+  int tmp = tab[prawy];
+  tab[prawy] = tab[srodek];
+  tab[srodek] = tmp;
+
+  int j=0;
+  while(j<srodek)
+    {
+      int i=j;
+      while(tab[i]<tab[j])
+	{
+	  int temp = tab[j];
+	  tab[j]=tab[i];
+	  tab[i]=temp;
+	}
+      if(tab[i]>tab[j])
+	{
+	  i++;
+	}
+      else{}
+    }
+
+  if(j>=srodek)
+    {
+      int tmp = tab[prawy];
+      tab[prawy] = tab[srodek];
+      tab[srodek] = tmp; 
+    }
+  else{}
+
+  quicksort(lewy,j);
+  
+  quicksort(j+1,prawy);
+}
+
+int TabLista::rozmiar()
+{
+  return size;
+}

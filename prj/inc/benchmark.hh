@@ -1,7 +1,7 @@
 #ifndef BENCHMARK_HH
 #define BENCHMARK_HH
 
-#define SIZE 10000000
+#define SIZE 100
 
 /*!
  *\brief Klasa Benchmark modelujaca program benchmarkujacy.
@@ -46,6 +46,8 @@ public:
    *\param[in] _border - ilosc elementow dla ktorych algorytm ma wykonac swoje dzialanie.
    */
   virtual void runAlgorithm(int _border) {};
+
+  virtual void runAlgorithmSzybkieSortowanie(int _border) {};
 };
 
 #endif

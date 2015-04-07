@@ -49,6 +49,8 @@ public:
    *\param[in] _border - ilosc elementow dla ktorych algorytm ma wykonac swoje dzialanie.
    */
   virtual void runAlgorithm(int _border);
+
+  virtual void runAlgorithmSzybkieSortowanie(int _border);
 };
 
 #endif
