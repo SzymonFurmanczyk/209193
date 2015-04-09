@@ -1,4 +1,4 @@
-\hypertarget{class_algorithm2}{\section{Dokumentacja klasy Algorithm2}
+\hypertarget{class_algorithm2}{\section{Algorithm2 Class Reference}
 \label{class_algorithm2}\index{Algorithm2@{Algorithm2}}
 }
 
@@ -12,7 +12,7 @@ Klasa \hyperlink{class_algorithm2}{Algorithm2} modelujaca algorytm wczytywania d
 
 
 
-Diagram dziedziczenia dla Algorithm2\nopagebreak
+Inheritance diagram for Algorithm2\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -21,14 +21,14 @@ Diagram dziedziczenia dla Algorithm2\nopagebreak
 \end{figure}
 
 
-Diagram współpracy dla Algorithm2\-:\nopagebreak
+Collaboration diagram for Algorithm2\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=219pt]{class_algorithm2__coll__graph}
 \end{center}
 \end{figure}
-\subsection*{Metody publiczne}
+\subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_algorithm2_ad77a51433815456eca8139444e78b49b}{Algorithm2} ()
@@ -40,8 +40,10 @@ Diagram współpracy dla Algorithm2\-:\nopagebreak
 virtual void \hyperlink{class_algorithm2_a6eb066d5e51f2187e717454751bc2934}{test\-Algorithm} (\hyperlink{class_benchmark}{Benchmark} $\ast$\-\_\-algorithm)
 \begin{DoxyCompactList}\small\item\em Metoda testowania algorytmu. Metoda sluzy do testowania szybkosci dzialania algorytmu. W klasie \hyperlink{class_algorithm2}{Algorithm2} nie ma konkretnego dzialania. \end{DoxyCompactList}\item 
 virtual void \hyperlink{class_algorithm2_a409e58d5fb0b6d2407cc986cf163703b}{run\-Algorithm} (int \-\_\-border)
-\begin{DoxyCompactList}\small\item\em Metoda uruchamiania algorytmu. Metoda sluzy to wykonywania danego algorytmu. Wczytuje elementy do kolejki. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactList}\small\item\em Metoda uruchamiania algorytmu. Metoda sluzy to wykonywania danego algorytmu. Wczytuje elementy do kolejki. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_algorithm2_ac783dcbd44e804260d17ce0846530afc}{run\-Algorithm\-Szybkie\-Sortowanie} (int \-\_\-border)
+\begin{DoxyCompactList}\small\item\em Metoda uruchamiania algorytmu sortujacego tablice. Metoda sluzy do wykonania algorytmu szybkiego sortowania tablicy od najwiekszego do najmniejszego elementu. Sortuje tablice. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 int \hyperlink{class_algorithm2_a4a2c5e1211591fb0ad00d64ca783bf56}{tab} \mbox{[}\hyperlink{benchmark_8hh_a70ed59adcb4159ac551058053e649640}{S\-I\-Z\-E}\mbox{]}
@@ -50,14 +52,14 @@ int \hyperlink{class_algorithm2_a4a2c5e1211591fb0ad00d64ca783bf56}{tab} \mbox{[}
 \begin{DoxyCompactList}\small\item\em Zmienna przechowujaca liste tablicowa. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\subsection{Opis szczegółowy}
+\subsection{Detailed Description}
 
 
-Definicja w linii 9 pliku algorithm2.\-hh.
+Definition at line 9 of file algorithm2.\-hh.
 
 
 
-\subsection{Dokumentacja konstruktora i destruktora}
+\subsection{Constructor \& Destructor Documentation}
 \hypertarget{class_algorithm2_ad77a51433815456eca8139444e78b49b}{\index{Algorithm2@{Algorithm2}!Algorithm2@{Algorithm2}}
 \index{Algorithm2@{Algorithm2}!Algorithm2@{Algorithm2}}
 \subsubsection[{Algorithm2}]{\setlength{\rightskip}{0pt plus 5cm}Algorithm2\-::\-Algorithm2 (
@@ -67,7 +69,7 @@ Definicja w linii 9 pliku algorithm2.\-hh.
 )\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_algorithm2_ad77a51433815456eca8139444e78b49b}
 
 
-Definicja w linii 24 pliku algorithm2.\-hh.
+Definition at line 24 of file algorithm2.\-hh.
 
 \hypertarget{class_algorithm2_ac5cc064a2727d2c1a2b32d335cd73f8d}{\index{Algorithm2@{Algorithm2}!Algorithm2@{Algorithm2}}
 \index{Algorithm2@{Algorithm2}!Algorithm2@{Algorithm2}}
@@ -77,13 +79,13 @@ Definicja w linii 24 pliku algorithm2.\-hh.
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_algorithm2_ac5cc064a2727d2c1a2b32d335cd73f8d}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-tab} & -\/ tablica przechowujaca dane wejsciowe. \\
 \hline
 \end{DoxyParams}
 
 
-Definicja w linii 30 pliku algorithm2.\-hh.
+Definition at line 30 of file algorithm2.\-hh.
 
 \hypertarget{class_algorithm2_ab2c630f56f5d2e90f62a13fdaf0cd954}{\index{Algorithm2@{Algorithm2}!$\sim$\-Algorithm2@{$\sim$\-Algorithm2}}
 \index{$\sim$\-Algorithm2@{$\sim$\-Algorithm2}!Algorithm2@{Algorithm2}}
@@ -94,11 +96,11 @@ Definicja w linii 30 pliku algorithm2.\-hh.
 )\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_algorithm2_ab2c630f56f5d2e90f62a13fdaf0cd954}
 
 
-Definicja w linii 35 pliku algorithm2.\-hh.
+Definition at line 35 of file algorithm2.\-hh.
 
 
 
-\subsection{Dokumentacja funkcji składowych}
+\subsection{Member Function Documentation}
 \hypertarget{class_algorithm2_a409e58d5fb0b6d2407cc986cf163703b}{\index{Algorithm2@{Algorithm2}!run\-Algorithm@{run\-Algorithm}}
 \index{run\-Algorithm@{run\-Algorithm}!Algorithm2@{Algorithm2}}
 \subsubsection[{run\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}void Algorithm2\-::run\-Algorithm (
@@ -107,25 +109,56 @@ Definicja w linii 35 pliku algorithm2.\-hh.
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_algorithm2_a409e58d5fb0b6d2407cc986cf163703b}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-border} & -\/ ilosc elementow dla ktorych algorytm ma wykonac swoje dzialanie. \\
 \hline
 \end{DoxyParams}
 
 
-Reimplementowana z \hyperlink{class_benchmark_a6363894c058e8bfe146de09d7126b29c}{Benchmark}.
+Reimplemented from \hyperlink{class_benchmark_a6363894c058e8bfe146de09d7126b29c}{Benchmark}.
 
 
 
-Definicja w linii 8 pliku algorithm2.\-cpp.
+Definition at line 8 of file algorithm2.\-cpp.
 
 
 
-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Here is the call graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_algorithm2_a409e58d5fb0b6d2407cc986cf163703b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_algorithm2_ac783dcbd44e804260d17ce0846530afc}{\index{Algorithm2@{Algorithm2}!run\-Algorithm\-Szybkie\-Sortowanie@{run\-Algorithm\-Szybkie\-Sortowanie}}
+\index{run\-Algorithm\-Szybkie\-Sortowanie@{run\-Algorithm\-Szybkie\-Sortowanie}!Algorithm2@{Algorithm2}}
+\subsubsection[{run\-Algorithm\-Szybkie\-Sortowanie}]{\setlength{\rightskip}{0pt plus 5cm}void Algorithm2\-::run\-Algorithm\-Szybkie\-Sortowanie (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-border}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_algorithm2_ac783dcbd44e804260d17ce0846530afc}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em \-\_\-border} & -\/ zakres sortowania tablicy. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_benchmark_a66dac1629afaba9ab4e139e3cad8a856}{Benchmark}.
+
+
+
+Definition at line 15 of file algorithm2.\-cpp.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_algorithm2_ac783dcbd44e804260d17ce0846530afc_cgraph}
 \end{center}
 \end{figure}
 
@@ -138,34 +171,34 @@ Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_algorithm2_a6eb066d5e51f2187e717454751bc2934}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-algorithm} & -\/ testowany algorytm. \\
 \hline
 \end{DoxyParams}
 
 
-Definicja w linii 43 pliku algorithm2.\-hh.
+Definition at line 43 of file algorithm2.\-hh.
 
 
 
-\subsection{Dokumentacja atrybutów składowych}
+\subsection{Member Data Documentation}
 \hypertarget{class_algorithm2_a4a2c5e1211591fb0ad00d64ca783bf56}{\index{Algorithm2@{Algorithm2}!tab@{tab}}
 \index{tab@{tab}!Algorithm2@{Algorithm2}}
 \subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}int Algorithm2\-::tab\mbox{[}{\bf S\-I\-Z\-E}\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algorithm2_a4a2c5e1211591fb0ad00d64ca783bf56}
 
 
-Definicja w linii 14 pliku algorithm2.\-hh.
+Definition at line 14 of file algorithm2.\-hh.
 
 \hypertarget{class_algorithm2_af58d491bdb13e788c40754617f3b13df}{\index{Algorithm2@{Algorithm2}!tablista@{tablista}}
 \index{tablista@{tablista}!Algorithm2@{Algorithm2}}
 \subsubsection[{tablista}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Tab\-Lista} Algorithm2\-::tablista\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algorithm2_af58d491bdb13e788c40754617f3b13df}
 
 
-Definicja w linii 18 pliku algorithm2.\-hh.
+Definition at line 18 of file algorithm2.\-hh.
 
 
 
-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
 \item 
 \hyperlink{algorithm2_8hh}{algorithm2.\-hh}\item 
 \hyperlink{algorithm2_8cpp}{algorithm2.\-cpp}\end{DoxyCompactItemize}

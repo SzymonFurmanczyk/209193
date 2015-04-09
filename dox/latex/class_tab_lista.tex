@@ -1,4 +1,4 @@
-\hypertarget{class_tab_lista}{\section{Dokumentacja klasy Tab\-Lista}
+\hypertarget{class_tab_lista}{\section{Tab\-Lista Class Reference}
 \label{class_tab_lista}\index{Tab\-Lista@{Tab\-Lista}}
 }
 
@@ -10,7 +10,7 @@ Klasa \hyperlink{class_tab_lista}{Tab\-Lista} modelujaca strukture danych typu l
 
 {\ttfamily \#include $<$tab\-\_\-lista.\-hh$>$}
 
-\subsection*{Metody publiczne}
+\subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_tab_lista_ad3bfa98306e98b4e5bb7ff524e72078c}{Tab\-Lista} ()
@@ -22,13 +22,17 @@ Klasa \hyperlink{class_tab_lista}{Tab\-Lista} modelujaca strukture danych typu l
 void \hyperlink{class_tab_lista_a7bd3e5f62a81bfd3813ad874e8a9c059}{insert} (int \-\_\-elem)
 \begin{DoxyCompactList}\small\item\em Metoda dodawnia elementu. Metoda sluzy do dodawania elementu do konca listy. \end{DoxyCompactList}\item 
 int \hyperlink{class_tab_lista_aae59a3eafbbd7424a952badb26410a5e}{remove} (int \-\_\-f)
-\begin{DoxyCompactList}\small\item\em Metoda usuwania elementu. Metoda sluzy do usuwania elementu o wskazanym indeksie. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Metody prywatne}
+\begin{DoxyCompactList}\small\item\em Metoda usuwania elementu. Metoda sluzy do usuwania elementu o wskazanym indeksie. \end{DoxyCompactList}\item 
+int \hyperlink{class_tab_lista_ac4b9b266a861fc7ecffd60257a480991}{rozmiar} ()
+\begin{DoxyCompactList}\small\item\em Metoda rozmiaru tablicy. Metoda zwraca ilosc elementow obecnych na tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_tab_lista_a7e7acd97b2675b82b9a0f50907e87c22}{quicksort} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Metoda sortujaca tablice. Metoda sluzy do sortowania tablicy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 void \hyperlink{class_tab_lista_a9ae6a784d488c8b9885ccbc945225f9e}{increase} ()
 \begin{DoxyCompactList}\small\item\em Metoda powiekszania listy tablicowe. Metoda ta dodaje do listy 8 kolejnych wolnych pol. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Atrybuty prywatne}
+\subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 int $\ast$ \hyperlink{class_tab_lista_a06f658ed62f3db852813e90dcc5876a5}{tab}
@@ -39,14 +43,14 @@ long \hyperlink{class_tab_lista_ac7413a3d41c2c2e57fa92e055fc2e5b3}{last}
 \begin{DoxyCompactList}\small\item\em Wskaznik na ostatni wolny element. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\subsection{Opis szczegółowy}
+\subsection{Detailed Description}
 
 
-Definicja w linii 10 pliku tab\-\_\-lista.\-hh.
+Definition at line 10 of file tab\-\_\-lista.\-hh.
 
 
 
-\subsection{Dokumentacja konstruktora i destruktora}
+\subsection{Constructor \& Destructor Documentation}
 \hypertarget{class_tab_lista_ad3bfa98306e98b4e5bb7ff524e72078c}{\index{Tab\-Lista@{Tab\-Lista}!Tab\-Lista@{Tab\-Lista}}
 \index{Tab\-Lista@{Tab\-Lista}!TabLista@{Tab\-Lista}}
 \subsubsection[{Tab\-Lista}]{\setlength{\rightskip}{0pt plus 5cm}Tab\-Lista\-::\-Tab\-Lista (
@@ -56,7 +60,7 @@ Definicja w linii 10 pliku tab\-\_\-lista.\-hh.
 )}}\label{class_tab_lista_ad3bfa98306e98b4e5bb7ff524e72078c}
 
 
-Definicja w linii 5 pliku tab\-\_\-lista.\-cpp.
+Definition at line 5 of file tab\-\_\-lista.\-cpp.
 
 \hypertarget{class_tab_lista_a95d23d52e0af187351b3fc1022ae4839}{\index{Tab\-Lista@{Tab\-Lista}!Tab\-Lista@{Tab\-Lista}}
 \index{Tab\-Lista@{Tab\-Lista}!TabLista@{Tab\-Lista}}
@@ -67,7 +71,7 @@ Definicja w linii 5 pliku tab\-\_\-lista.\-cpp.
 )}}\label{class_tab_lista_a95d23d52e0af187351b3fc1022ae4839}
 
 
-Definicja w linii 13 pliku tab\-\_\-lista.\-cpp.
+Definition at line 13 of file tab\-\_\-lista.\-cpp.
 
 \hypertarget{class_tab_lista_a0b4a808158b370bbc5785ceef760a273}{\index{Tab\-Lista@{Tab\-Lista}!$\sim$\-Tab\-Lista@{$\sim$\-Tab\-Lista}}
 \index{$\sim$\-Tab\-Lista@{$\sim$\-Tab\-Lista}!TabLista@{Tab\-Lista}}
@@ -78,11 +82,11 @@ Definicja w linii 13 pliku tab\-\_\-lista.\-cpp.
 )}}\label{class_tab_lista_a0b4a808158b370bbc5785ceef760a273}
 
 
-Definicja w linii 21 pliku tab\-\_\-lista.\-cpp.
+Definition at line 21 of file tab\-\_\-lista.\-cpp.
 
 
 
-\subsection{Dokumentacja funkcji składowych}
+\subsection{Member Function Documentation}
 \hypertarget{class_tab_lista_a9ae6a784d488c8b9885ccbc945225f9e}{\index{Tab\-Lista@{Tab\-Lista}!increase@{increase}}
 \index{increase@{increase}!TabLista@{Tab\-Lista}}
 \subsubsection[{increase}]{\setlength{\rightskip}{0pt plus 5cm}void Tab\-Lista\-::increase (
@@ -92,11 +96,11 @@ Definicja w linii 21 pliku tab\-\_\-lista.\-cpp.
 )\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tab_lista_a9ae6a784d488c8b9885ccbc945225f9e}
 
 
-Definicja w linii 25 pliku tab\-\_\-lista.\-cpp.
+Definition at line 25 of file tab\-\_\-lista.\-cpp.
 
 
 
-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Here is the caller graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -113,17 +117,17 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{DoxyParamCaption}
 )}}\label{class_tab_lista_a7bd3e5f62a81bfd3813ad874e8a9c059}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-elem} & -\/ dodawany element. \\
 \hline
 \end{DoxyParams}
 
 
-Definicja w linii 35 pliku tab\-\_\-lista.\-cpp.
+Definition at line 35 of file tab\-\_\-lista.\-cpp.
 
 
 
-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Here is the call graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -134,11 +138,41 @@ Oto graf wywołań dla tej funkcji\-:\nopagebreak
 
 
 
-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Here is the caller graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=322pt]{class_tab_lista_a7bd3e5f62a81bfd3813ad874e8a9c059_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_tab_lista_a7e7acd97b2675b82b9a0f50907e87c22}{\index{Tab\-Lista@{Tab\-Lista}!quicksort@{quicksort}}
+\index{quicksort@{quicksort}!TabLista@{Tab\-Lista}}
+\subsubsection[{quicksort}]{\setlength{\rightskip}{0pt plus 5cm}void Tab\-Lista\-::quicksort (
+\begin{DoxyParamCaption}
+\item[{int}]{a, }
+\item[{int}]{b}
+\end{DoxyParamCaption}
+)}}\label{class_tab_lista_a7e7acd97b2675b82b9a0f50907e87c22}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em a} & -\/ lewy zakres sortowania. \\
+\hline
+\mbox{\tt in}  & {\em b} & -\/ prawy zakres sortowania. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 57 of file tab\-\_\-lista.\-cpp.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_tab_lista_a7e7acd97b2675b82b9a0f50907e87c22_icgraph}
 \end{center}
 \end{figure}
 
@@ -151,44 +185,58 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{DoxyParamCaption}
 )}}\label{class_tab_lista_aae59a3eafbbd7424a952badb26410a5e}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-f} & -\/ indeks elementu do usuniecia. \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Zwraca}
+\begin{DoxyReturn}{Returns}
 -\/ usuwany element. 
 \end{DoxyReturn}
 
 
-Definicja w linii 42 pliku tab\-\_\-lista.\-cpp.
+Definition at line 42 of file tab\-\_\-lista.\-cpp.
+
+\hypertarget{class_tab_lista_ac4b9b266a861fc7ecffd60257a480991}{\index{Tab\-Lista@{Tab\-Lista}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!TabLista@{Tab\-Lista}}
+\subsubsection[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}int Tab\-Lista\-::rozmiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tab_lista_ac4b9b266a861fc7ecffd60257a480991}
+\begin{DoxyReturn}{Returns}
+-\/ ilosc elementow na tablicy. 
+\end{DoxyReturn}
+
+
+Definition at line 112 of file tab\-\_\-lista.\-cpp.
 
 
 
-\subsection{Dokumentacja atrybutów składowych}
+\subsection{Member Data Documentation}
 \hypertarget{class_tab_lista_ac7413a3d41c2c2e57fa92e055fc2e5b3}{\index{Tab\-Lista@{Tab\-Lista}!last@{last}}
 \index{last@{last}!TabLista@{Tab\-Lista}}
 \subsubsection[{last}]{\setlength{\rightskip}{0pt plus 5cm}long Tab\-Lista\-::last\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tab_lista_ac7413a3d41c2c2e57fa92e055fc2e5b3}
 
 
-Definicja w linii 23 pliku tab\-\_\-lista.\-hh.
+Definition at line 23 of file tab\-\_\-lista.\-hh.
 
 \hypertarget{class_tab_lista_aa3c6d623be318ec8410fa447281380da}{\index{Tab\-Lista@{Tab\-Lista}!size@{size}}
 \index{size@{size}!TabLista@{Tab\-Lista}}
 \subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}long Tab\-Lista\-::size\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tab_lista_aa3c6d623be318ec8410fa447281380da}
 
 
-Definicja w linii 19 pliku tab\-\_\-lista.\-hh.
+Definition at line 19 of file tab\-\_\-lista.\-hh.
 
 \hypertarget{class_tab_lista_a06f658ed62f3db852813e90dcc5876a5}{\index{Tab\-Lista@{Tab\-Lista}!tab@{tab}}
 \index{tab@{tab}!TabLista@{Tab\-Lista}}
 \subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ Tab\-Lista\-::tab\hspace{0.3cm}{\ttfamily [private]}}}\label{class_tab_lista_a06f658ed62f3db852813e90dcc5876a5}
 
 
-Definicja w linii 15 pliku tab\-\_\-lista.\-hh.
+Definition at line 15 of file tab\-\_\-lista.\-hh.
 
 
 
-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
 \item 
 \hyperlink{tab__lista_8hh}{tab\-\_\-lista.\-hh}\item 
 \hyperlink{tab__lista_8cpp}{tab\-\_\-lista.\-cpp}\end{DoxyCompactItemize}

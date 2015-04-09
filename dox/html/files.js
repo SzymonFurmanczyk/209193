@@ -1,5 +1,9 @@
 var files =
 [
+    [ "algorithm1.cpp", "algorithm1_8cpp.html", null ],
+    [ "algorithm1.hh", "algorithm1_8hh.html", [
+      [ "Mnozenie", "class_mnozenie.html", "class_mnozenie" ]
+    ] ],
     [ "algorithm2.cpp", "algorithm2_8cpp.html", null ],
     [ "algorithm2.hh", "algorithm2_8hh.html", [
       [ "Algorithm2", "class_algorithm2.html", "class_algorithm2" ]

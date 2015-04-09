@@ -60,8 +60,19 @@ public:
    */
   int remove(int _f);
 
+  /*!
+   *\brief Metoda rozmiaru tablicy.
+   *Metoda zwraca ilosc elementow obecnych na tablicy.
+   *\return - ilosc elementow na tablicy.
+   */
   int rozmiar();
 
+  /*!
+   *\brief Metoda sortujaca tablice.
+   *Metoda sluzy do sortowania tablicy.
+   *\param[in] a - lewy zakres sortowania.
+   *\param[in] b - prawy zakres sortowania.
+   */
   void quicksort(int a,int b);
 
 

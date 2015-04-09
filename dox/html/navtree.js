@@ -1,23 +1,23 @@
 var NAVTREE =
 [
-  [ "lab3", "index.html", [
+  [ "lab4", "index.html", [
     [ "Laboratorium 3", "index.html", null ],
-    [ "Klasy", null, [
-      [ "Lista klas", "annotated.html", "annotated" ],
-      [ "Indeks klas", "classes.html", null ],
-      [ "Hierarchia klas", "hierarchy.html", "hierarchy" ],
-      [ "Składowe klas", "functions.html", [
+    [ "Classes", null, [
+      [ "Class List", "annotated.html", "annotated" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
-        [ "Funkcje", "functions_func.html", null ],
-        [ "Zmienne", "functions_vars.html", null ]
+        [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
-    [ "Pliki", null, [
-      [ "Lista plików", "files.html", "files" ],
-      [ "Składowe plików", "globals.html", [
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
+      [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Funkcje", "globals_func.html", null ],
-        [ "Definicje", "globals_defs.html", null ]
+        [ "Functions", "globals_func.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -25,7 +25,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"algorithm2_8cpp.html"
+"algorithm1_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

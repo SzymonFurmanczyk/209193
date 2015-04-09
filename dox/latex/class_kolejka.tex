@@ -1,4 +1,4 @@
-\hypertarget{class_kolejka}{\section{Dokumentacja klasy Kolejka}
+\hypertarget{class_kolejka}{\section{Kolejka Class Reference}
 \label{class_kolejka}\index{Kolejka@{Kolejka}}
 }
 
@@ -10,7 +10,7 @@ Klasa \hyperlink{class_kolejka}{Kolejka} modelujaca strukture danych typu kolejk
 
 {\ttfamily \#include $<$kolejka.\-hh$>$}
 
-\subsection*{Metody publiczne}
+\subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_kolejka_a37c886fdc73dce62b04da0381dec5484}{Kolejka} ()
@@ -23,12 +23,12 @@ void \hyperlink{class_kolejka_a8f3b0111e85f517d9eadb8ce996d4471}{enqueue} (int \
 \begin{DoxyCompactList}\small\item\em Metoda dodawnia elementu. Metoda sluzy do dodawania elementu do kolejki. \end{DoxyCompactList}\item 
 int \hyperlink{class_kolejka_af23261614bcf242a1934a99688a2debc}{dequeue} ()
 \begin{DoxyCompactList}\small\item\em Metoda usuwania elementu. Metoda sluzy do usuwania elementu z kolejki. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Metody prywatne}
+\subsection*{Private Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 void \hyperlink{class_kolejka_ab4f51f0ec7fef36a85af6cfd1c257427}{increase} ()
 \begin{DoxyCompactList}\small\item\em Metoda powiekszania kolejki. Metoda ta dodaje do kolejki 8 kolejnych wolnych pol pomiedzy pierwszym a ostatnim zapisanym elementem. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Atrybuty prywatne}
+\subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 int $\ast$ \hyperlink{class_kolejka_a49e444e7bd7b91a78bc2a46426b73128}{tab}
@@ -41,14 +41,14 @@ int \hyperlink{class_kolejka_ae16213a5b751800eb48da6bede435ad0}{r}
 \begin{DoxyCompactList}\small\item\em Indeks ostatniego wolnego pola. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\subsection{Opis szczegółowy}
+\subsection{Detailed Description}
 
 
-Definicja w linii 9 pliku kolejka.\-hh.
+Definition at line 9 of file kolejka.\-hh.
 
 
 
-\subsection{Dokumentacja konstruktora i destruktora}
+\subsection{Constructor \& Destructor Documentation}
 \hypertarget{class_kolejka_a37c886fdc73dce62b04da0381dec5484}{\index{Kolejka@{Kolejka}!Kolejka@{Kolejka}}
 \index{Kolejka@{Kolejka}!Kolejka@{Kolejka}}
 \subsubsection[{Kolejka}]{\setlength{\rightskip}{0pt plus 5cm}Kolejka\-::\-Kolejka (
@@ -58,7 +58,7 @@ Definicja w linii 9 pliku kolejka.\-hh.
 )}}\label{class_kolejka_a37c886fdc73dce62b04da0381dec5484}
 
 
-Definicja w linii 5 pliku kolejka.\-cpp.
+Definition at line 5 of file kolejka.\-cpp.
 
 \hypertarget{class_kolejka_ac942cc97bf0d2c30d11611c406acc5a8}{\index{Kolejka@{Kolejka}!Kolejka@{Kolejka}}
 \index{Kolejka@{Kolejka}!Kolejka@{Kolejka}}
@@ -68,13 +68,13 @@ Definicja w linii 5 pliku kolejka.\-cpp.
 \end{DoxyParamCaption}
 )}}\label{class_kolejka_ac942cc97bf0d2c30d11611c406acc5a8}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-size} & -\/ rozmiar tworzonej kolejki. \\
 \hline
 \end{DoxyParams}
 
 
-Definicja w linii 14 pliku kolejka.\-cpp.
+Definition at line 14 of file kolejka.\-cpp.
 
 \hypertarget{class_kolejka_a352f86ff08cd47be6c35c60bb0f873a6}{\index{Kolejka@{Kolejka}!$\sim$\-Kolejka@{$\sim$\-Kolejka}}
 \index{$\sim$\-Kolejka@{$\sim$\-Kolejka}!Kolejka@{Kolejka}}
@@ -85,11 +85,11 @@ Definicja w linii 14 pliku kolejka.\-cpp.
 )}}\label{class_kolejka_a352f86ff08cd47be6c35c60bb0f873a6}
 
 
-Definicja w linii 23 pliku kolejka.\-cpp.
+Definition at line 23 of file kolejka.\-cpp.
 
 
 
-\subsection{Dokumentacja funkcji składowych}
+\subsection{Member Function Documentation}
 \hypertarget{class_kolejka_af23261614bcf242a1934a99688a2debc}{\index{Kolejka@{Kolejka}!dequeue@{dequeue}}
 \index{dequeue@{dequeue}!Kolejka@{Kolejka}}
 \subsubsection[{dequeue}]{\setlength{\rightskip}{0pt plus 5cm}int Kolejka\-::dequeue (
@@ -97,12 +97,12 @@ Definicja w linii 23 pliku kolejka.\-cpp.
 {}
 \end{DoxyParamCaption}
 )}}\label{class_kolejka_af23261614bcf242a1934a99688a2debc}
-\begin{DoxyReturn}{Zwraca}
+\begin{DoxyReturn}{Returns}
 -\/ usuwany element. 
 \end{DoxyReturn}
 
 
-Definicja w linii 48 pliku kolejka.\-cpp.
+Definition at line 48 of file kolejka.\-cpp.
 
 \hypertarget{class_kolejka_a8f3b0111e85f517d9eadb8ce996d4471}{\index{Kolejka@{Kolejka}!enqueue@{enqueue}}
 \index{enqueue@{enqueue}!Kolejka@{Kolejka}}
@@ -112,17 +112,17 @@ Definicja w linii 48 pliku kolejka.\-cpp.
 \end{DoxyParamCaption}
 )}}\label{class_kolejka_a8f3b0111e85f517d9eadb8ce996d4471}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-elem} & -\/ dodawany element. \\
 \hline
 \end{DoxyParams}
 
 
-Definicja w linii 40 pliku kolejka.\-cpp.
+Definition at line 40 of file kolejka.\-cpp.
 
 
 
-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Here is the call graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -133,7 +133,7 @@ Oto graf wywołań dla tej funkcji\-:\nopagebreak
 
 
 
-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Here is the caller graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -151,11 +151,11 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 )\hspace{0.3cm}{\ttfamily [private]}}}\label{class_kolejka_ab4f51f0ec7fef36a85af6cfd1c257427}
 
 
-Definicja w linii 27 pliku kolejka.\-cpp.
+Definition at line 27 of file kolejka.\-cpp.
 
 
 
-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Here is the caller graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -166,38 +166,38 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 
 
 
-\subsection{Dokumentacja atrybutów składowych}
+\subsection{Member Data Documentation}
 \hypertarget{class_kolejka_ae66597dc9eb1fcc210b075f8aa7ff77f}{\index{Kolejka@{Kolejka}!f@{f}}
 \index{f@{f}!Kolejka@{Kolejka}}
 \subsubsection[{f}]{\setlength{\rightskip}{0pt plus 5cm}int Kolejka\-::f\hspace{0.3cm}{\ttfamily [private]}}}\label{class_kolejka_ae66597dc9eb1fcc210b075f8aa7ff77f}
 
 
-Definicja w linii 22 pliku kolejka.\-hh.
+Definition at line 22 of file kolejka.\-hh.
 
 \hypertarget{class_kolejka_ae16213a5b751800eb48da6bede435ad0}{\index{Kolejka@{Kolejka}!r@{r}}
 \index{r@{r}!Kolejka@{Kolejka}}
 \subsubsection[{r}]{\setlength{\rightskip}{0pt plus 5cm}int Kolejka\-::r\hspace{0.3cm}{\ttfamily [private]}}}\label{class_kolejka_ae16213a5b751800eb48da6bede435ad0}
 
 
-Definicja w linii 26 pliku kolejka.\-hh.
+Definition at line 26 of file kolejka.\-hh.
 
 \hypertarget{class_kolejka_a84898848de8e77a76a6f2e4a7393b4bb}{\index{Kolejka@{Kolejka}!size@{size}}
 \index{size@{size}!Kolejka@{Kolejka}}
 \subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}long Kolejka\-::size\hspace{0.3cm}{\ttfamily [private]}}}\label{class_kolejka_a84898848de8e77a76a6f2e4a7393b4bb}
 
 
-Definicja w linii 18 pliku kolejka.\-hh.
+Definition at line 18 of file kolejka.\-hh.
 
 \hypertarget{class_kolejka_a49e444e7bd7b91a78bc2a46426b73128}{\index{Kolejka@{Kolejka}!tab@{tab}}
 \index{tab@{tab}!Kolejka@{Kolejka}}
 \subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ Kolejka\-::tab\hspace{0.3cm}{\ttfamily [private]}}}\label{class_kolejka_a49e444e7bd7b91a78bc2a46426b73128}
 
 
-Definicja w linii 14 pliku kolejka.\-hh.
+Definition at line 14 of file kolejka.\-hh.
 
 
 
-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
 \item 
 \hyperlink{kolejka_8hh}{kolejka.\-hh}\item 
 \hyperlink{kolejka_8cpp}{kolejka.\-cpp}\end{DoxyCompactItemize}

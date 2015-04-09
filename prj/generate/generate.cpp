@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstdlib>
 
-#define SIZE 100
+#define SIZE 1000000
 
 /*!
  *\brief Funkcja generowania pliku z danymi wejsciowymi.
@@ -13,10 +13,11 @@
  */
 int main() {
 
+  srand(time(NULL));
   int tab[SIZE];
 
   for(int i=0; i<SIZE; ++i)
-    tab[i] = std::rand() % 50+1;
+    tab[i] = std::rand() % 100+1;
 
   std::ofstream data("data.txt");
   if (data.is_open()){

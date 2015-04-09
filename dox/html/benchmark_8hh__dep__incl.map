@@ -1,8 +1,9 @@
 <map id="benchmark.hh" name="benchmark.hh">
-<area shape="rect" id="node2" href="$algorithm2_8cpp.html" title="algorithm2.cpp" alt="" coords="5,80,112,107"/>
-<area shape="rect" id="node3" href="$algorithm__kolejka_8cpp.html" title="algorithm_kolejka.cpp" alt="" coords="136,80,283,107"/>
-<area shape="rect" id="node4" href="$algorithm__lista_8cpp.html" title="algorithm_lista.cpp" alt="" coords="307,80,436,107"/>
-<area shape="rect" id="node5" href="$algorithm__stos_8cpp.html" title="algorithm_stos.cpp" alt="" coords="461,80,591,107"/>
-<area shape="rect" id="node6" href="$benchmark_8cpp.html" title="benchmark.cpp" alt="" coords="617,80,727,107"/>
-<area shape="rect" id="node7" href="$main_8cpp.html" title="main.cpp" alt="" coords="752,80,825,107"/>
+<area shape="rect" id="node3" href="$algorithm1_8cpp.html" title="algorithm1.cpp" alt="" coords="5,83,112,111"/>
+<area shape="rect" id="node5" href="$algorithm2_8cpp.html" title="algorithm2.cpp" alt="" coords="136,83,243,111"/>
+<area shape="rect" id="node7" href="$algorithm__kolejka_8cpp.html" title="algorithm_kolejka.cpp" alt="" coords="267,83,413,111"/>
+<area shape="rect" id="node9" href="$algorithm__lista_8cpp.html" title="algorithm_lista.cpp" alt="" coords="437,83,565,111"/>
+<area shape="rect" id="node11" href="$algorithm__stos_8cpp.html" title="algorithm_stos.cpp" alt="" coords="589,83,717,111"/>
+<area shape="rect" id="node13" href="$benchmark_8cpp.html" title="benchmark.cpp" alt="" coords="741,83,851,111"/>
+<area shape="rect" id="node15" href="$main_8cpp.html" title="main.cpp" alt="" coords="875,83,949,111"/>
 </map>

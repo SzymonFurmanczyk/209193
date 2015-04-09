@@ -1,4 +1,4 @@
-\hypertarget{class_lista}{\section{Dokumentacja klasy Lista}
+\hypertarget{class_lista}{\section{Lista Class Reference}
 \label{class_lista}\index{Lista@{Lista}}
 }
 
@@ -12,19 +12,19 @@ Klasa \hyperlink{class_lista}{Lista} modelujaca strukture danych typu lista. Obi
 
 
 
-Diagram współpracy dla Lista\-:\nopagebreak
+Collaboration diagram for Lista\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=201pt]{class_lista__coll__graph}
 \end{center}
 \end{figure}
-\subsection*{Komponenty}
+\subsection*{Classes}
 \begin{DoxyCompactItemize}
 \item 
 struct \hyperlink{struct_lista_1_1_komorka}{Komorka}
 \begin{DoxyCompactList}\small\item\em Struktura \hyperlink{struct_lista_1_1_komorka}{Komorka}. Obiekt tego typu reprezentuje pojedyncza komorke wraz ze wskaznikiem na nastepna komorke listy. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Metody publiczne}
+\subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_lista_a1f668b36909182ef1360b48503529a31}{Lista} ()
@@ -35,7 +35,7 @@ void \hyperlink{class_lista_acec8ac807da644d8250c3c6043a208e1}{insert} (int \-\_
 \begin{DoxyCompactList}\small\item\em Metoda dodawnia elementu. Metoda sluzy do dodawania elementu do konca listy. \end{DoxyCompactList}\item 
 int \hyperlink{class_lista_a18ce18bccb1af9b8d818f103021d7b4a}{remove} (int \-\_\-f)
 \begin{DoxyCompactList}\small\item\em Metoda usuwania elementu. Metoda sluzy do usuwania elementu o wskazanym indeksie. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Atrybuty prywatne}
+\subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{struct_lista_1_1_komorka}{Komorka} $\ast$ \hyperlink{class_lista_aeba20505030183d334971bd44c3c8b95}{head}
@@ -44,14 +44,14 @@ int \hyperlink{class_lista_a18ce18bccb1af9b8d818f103021d7b4a}{remove} (int \-\_\
 \begin{DoxyCompactList}\small\item\em Wskaznik na koniec listy. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\subsection{Opis szczegółowy}
+\subsection{Detailed Description}
 
 
-Definicja w linii 9 pliku lista.\-hh.
+Definition at line 9 of file lista.\-hh.
 
 
 
-\subsection{Dokumentacja konstruktora i destruktora}
+\subsection{Constructor \& Destructor Documentation}
 \hypertarget{class_lista_a1f668b36909182ef1360b48503529a31}{\index{Lista@{Lista}!Lista@{Lista}}
 \index{Lista@{Lista}!Lista@{Lista}}
 \subsubsection[{Lista}]{\setlength{\rightskip}{0pt plus 5cm}Lista\-::\-Lista (
@@ -61,7 +61,7 @@ Definicja w linii 9 pliku lista.\-hh.
 )\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_lista_a1f668b36909182ef1360b48503529a31}
 
 
-Definicja w linii 49 pliku lista.\-hh.
+Definition at line 49 of file lista.\-hh.
 
 \hypertarget{class_lista_a4d7394b2728a00ad8404965b2e15d096}{\index{Lista@{Lista}!$\sim$\-Lista@{$\sim$\-Lista}}
 \index{$\sim$\-Lista@{$\sim$\-Lista}!Lista@{Lista}}
@@ -72,11 +72,11 @@ Definicja w linii 49 pliku lista.\-hh.
 )\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_lista_a4d7394b2728a00ad8404965b2e15d096}
 
 
-Definicja w linii 54 pliku lista.\-hh.
+Definition at line 54 of file lista.\-hh.
 
 
 
-\subsection{Dokumentacja funkcji składowych}
+\subsection{Member Function Documentation}
 \hypertarget{class_lista_acec8ac807da644d8250c3c6043a208e1}{\index{Lista@{Lista}!insert@{insert}}
 \index{insert@{insert}!Lista@{Lista}}
 \subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}void Lista\-::insert (
@@ -85,17 +85,17 @@ Definicja w linii 54 pliku lista.\-hh.
 \end{DoxyParamCaption}
 )}}\label{class_lista_acec8ac807da644d8250c3c6043a208e1}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-elem} & -\/ dodawany element. \\
 \hline
 \end{DoxyParams}
 
 
-Definicja w linii 5 pliku lista.\-cpp.
+Definition at line 5 of file lista.\-cpp.
 
 
 
-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Here is the caller graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -112,37 +112,37 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{DoxyParamCaption}
 )}}\label{class_lista_a18ce18bccb1af9b8d818f103021d7b4a}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-f} & -\/ indeks elementu do usuniecia. \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Zwraca}
+\begin{DoxyReturn}{Returns}
 -\/ usuwany element. 
 \end{DoxyReturn}
 
 
-Definicja w linii 19 pliku lista.\-cpp.
+Definition at line 19 of file lista.\-cpp.
 
 
 
-\subsection{Dokumentacja atrybutów składowych}
+\subsection{Member Data Documentation}
 \hypertarget{class_lista_aeba20505030183d334971bd44c3c8b95}{\index{Lista@{Lista}!head@{head}}
 \index{head@{head}!Lista@{Lista}}
 \subsubsection[{head}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Komorka}$\ast$ Lista\-::head\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lista_aeba20505030183d334971bd44c3c8b95}
 
 
-Definicja w linii 38 pliku lista.\-hh.
+Definition at line 38 of file lista.\-hh.
 
 \hypertarget{class_lista_a7d42e5f99e945d97c29d6f764f71f4e7}{\index{Lista@{Lista}!tail@{tail}}
 \index{tail@{tail}!Lista@{Lista}}
 \subsubsection[{tail}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Komorka}$\ast$ Lista\-::tail\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lista_a7d42e5f99e945d97c29d6f764f71f4e7}
 
 
-Definicja w linii 42 pliku lista.\-hh.
+Definition at line 42 of file lista.\-hh.
 
 
 
-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
 \item 
 \hyperlink{lista_8hh}{lista.\-hh}\item 
 \hyperlink{lista_8cpp}{lista.\-cpp}\end{DoxyCompactItemize}

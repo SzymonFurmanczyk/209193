@@ -1,4 +1,4 @@
-\hypertarget{class_benchmark}{\section{Dokumentacja klasy Benchmark}
+\hypertarget{class_benchmark}{\section{Benchmark Class Reference}
 \label{class_benchmark}\index{Benchmark@{Benchmark}}
 }
 
@@ -12,14 +12,14 @@ Klasa \hyperlink{class_benchmark}{Benchmark} modelujaca program benchmarkujacy. 
 
 
 
-Diagram dziedziczenia dla Benchmark\nopagebreak
+Inheritance diagram for Benchmark\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_benchmark__inherit__graph}
 \end{center}
 \end{figure}
-\subsection*{Metody publiczne}
+\subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_benchmark_acfca497989836a688d44477802e822d8}{Benchmark} ()
@@ -29,22 +29,24 @@ Diagram dziedziczenia dla Benchmark\nopagebreak
 virtual void \hyperlink{class_benchmark_a900bc0d26c2ed6aa45afe4d5b295ccd1}{test\-Algorithm} (\hyperlink{class_benchmark}{Benchmark} $\ast$\-\_\-algorithm, int \-\_\-n) const 
 \begin{DoxyCompactList}\small\item\em Metoda testowania algorytmu. Metoda sluzy to testowania szybkosci dzialania algorytmu. Wykonuje testowany algorytm dla 5 kolejnych ilosci elementow. Wykonanie algorytmu dla danego zestawu liczb powtarza dwa razy i usrednia wynik. Otrzymany czas wraz z iloscia testowanych danych zapisuje w pliku ret\-\_\-data.\-txt. \end{DoxyCompactList}\item 
 virtual void \hyperlink{class_benchmark_a6363894c058e8bfe146de09d7126b29c}{run\-Algorithm} (int \-\_\-border)
-\begin{DoxyCompactList}\small\item\em Metoda uruchamiania algorytmu. Metoda sluzy do wykonywania danego algorytmu. W klasie \hyperlink{class_benchmark}{Benchmark} nie ma konkretnego dzialania. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactList}\small\item\em Metoda uruchamiania algorytmu. Metoda sluzy do wykonywania danego algorytmu. W klasie \hyperlink{class_benchmark}{Benchmark} nie ma konkretnego dzialania. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_benchmark_a66dac1629afaba9ab4e139e3cad8a856}{run\-Algorithm\-Szybkie\-Sortowanie} (int \-\_\-border)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
 \item 
 std\-::string \hyperlink{class_benchmark_aee0beda65009e7334d34c5957f78c49a}{nazwy} \mbox{[}4\mbox{]} = \{\char`\"{}ret\-\_\-data1.\-txt\char`\"{}, \char`\"{}ret\-\_\-data2.\-txt\char`\"{}, \char`\"{}ret\-\_\-data3.\-txt\char`\"{}, \char`\"{}ret\-\_\-data4.\-txt\char`\"{}\}
 \begin{DoxyCompactList}\small\item\em Tablica stringow przechowujaca nazwy plikow do zapisu. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\subsection{Opis szczegółowy}
+\subsection{Detailed Description}
 
 
-Definicja w linii 11 pliku benchmark.\-hh.
+Definition at line 11 of file benchmark.\-hh.
 
 
 
-\subsection{Dokumentacja konstruktora i destruktora}
+\subsection{Constructor \& Destructor Documentation}
 \hypertarget{class_benchmark_acfca497989836a688d44477802e822d8}{\index{Benchmark@{Benchmark}!Benchmark@{Benchmark}}
 \index{Benchmark@{Benchmark}!Benchmark@{Benchmark}}
 \subsubsection[{Benchmark}]{\setlength{\rightskip}{0pt plus 5cm}Benchmark\-::\-Benchmark (
@@ -54,7 +56,7 @@ Definicja w linii 11 pliku benchmark.\-hh.
 )\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_benchmark_acfca497989836a688d44477802e822d8}
 
 
-Definicja w linii 23 pliku benchmark.\-hh.
+Definition at line 23 of file benchmark.\-hh.
 
 \hypertarget{class_benchmark_a20476e07f09e2b20ed3e9a7f13a570e6}{\index{Benchmark@{Benchmark}!$\sim$\-Benchmark@{$\sim$\-Benchmark}}
 \index{$\sim$\-Benchmark@{$\sim$\-Benchmark}!Benchmark@{Benchmark}}
@@ -65,11 +67,11 @@ Definicja w linii 23 pliku benchmark.\-hh.
 )\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_benchmark_a20476e07f09e2b20ed3e9a7f13a570e6}
 
 
-Definicja w linii 28 pliku benchmark.\-hh.
+Definition at line 28 of file benchmark.\-hh.
 
 
 
-\subsection{Dokumentacja funkcji składowych}
+\subsection{Member Function Documentation}
 \hypertarget{class_benchmark_a6363894c058e8bfe146de09d7126b29c}{\index{Benchmark@{Benchmark}!run\-Algorithm@{run\-Algorithm}}
 \index{run\-Algorithm@{run\-Algorithm}!Benchmark@{Benchmark}}
 \subsubsection[{run\-Algorithm}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Benchmark\-::run\-Algorithm (
@@ -78,25 +80,51 @@ Definicja w linii 28 pliku benchmark.\-hh.
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_benchmark_a6363894c058e8bfe146de09d7126b29c}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-border} & -\/ ilosc elementow dla ktorych algorytm ma wykonac swoje dzialanie. \\
 \hline
 \end{DoxyParams}
 
 
-Reimplementowana w \hyperlink{class_algorithm2_a409e58d5fb0b6d2407cc986cf163703b}{Algorithm2}, \hyperlink{class_algorithm_kolejka_ae9da3f1862fd90feb4a3c1d6b4f3dd8d}{Algorithm\-Kolejka}, \hyperlink{class_algorithm_lista_a5c41dbbd3ae7a9ac34edec1a51bc8eb1}{Algorithm\-Lista} i \hyperlink{class_algorithm_stos_a889f7150ae3651b40e5acca7542dbbd1}{Algorithm\-Stos}.
+Reimplemented in \hyperlink{class_algorithm2_a409e58d5fb0b6d2407cc986cf163703b}{Algorithm2}, \hyperlink{class_algorithm_kolejka_ae9da3f1862fd90feb4a3c1d6b4f3dd8d}{Algorithm\-Kolejka}, \hyperlink{class_algorithm_lista_a5c41dbbd3ae7a9ac34edec1a51bc8eb1}{Algorithm\-Lista}, \hyperlink{class_algorithm_stos_a889f7150ae3651b40e5acca7542dbbd1}{Algorithm\-Stos}, and \hyperlink{class_mnozenie_a46b1c55b7ba208fa137065147e107be9}{Mnozenie}.
 
 
 
-Definicja w linii 48 pliku benchmark.\-hh.
+Definition at line 48 of file benchmark.\-hh.
 
 
 
-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Here is the caller graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{class_benchmark_a6363894c058e8bfe146de09d7126b29c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_benchmark_a66dac1629afaba9ab4e139e3cad8a856}{\index{Benchmark@{Benchmark}!run\-Algorithm\-Szybkie\-Sortowanie@{run\-Algorithm\-Szybkie\-Sortowanie}}
+\index{run\-Algorithm\-Szybkie\-Sortowanie@{run\-Algorithm\-Szybkie\-Sortowanie}!Benchmark@{Benchmark}}
+\subsubsection[{run\-Algorithm\-Szybkie\-Sortowanie}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Benchmark\-::run\-Algorithm\-Szybkie\-Sortowanie (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-border}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_benchmark_a66dac1629afaba9ab4e139e3cad8a856}
+
+
+Reimplemented in \hyperlink{class_algorithm2_ac783dcbd44e804260d17ce0846530afc}{Algorithm2}.
+
+
+
+Definition at line 50 of file benchmark.\-hh.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_benchmark_a66dac1629afaba9ab4e139e3cad8a856_icgraph}
 \end{center}
 \end{figure}
 
@@ -110,7 +138,7 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{DoxyParamCaption}
 ) const\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_benchmark_a900bc0d26c2ed6aa45afe4d5b295ccd1}
 
-\begin{DoxyParams}[1]{Parametry}
+\begin{DoxyParams}[1]{Parameters}
 \mbox{\tt in}  & {\em \-\_\-algorithm} & -\/ testowany algorytm. \\
 \hline
 \mbox{\tt in}  & {\em \-\_\-n} & -\/ indeks nazwy pliku \\
@@ -118,11 +146,11 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{DoxyParams}
 
 
-Definicja w linii 11 pliku benchmark.\-cpp.
+Definition at line 11 of file benchmark.\-cpp.
 
 
 
-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Here is the call graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -133,17 +161,17 @@ Oto graf wywołań dla tej funkcji\-:\nopagebreak
 
 
 
-\subsection{Dokumentacja atrybutów składowych}
+\subsection{Member Data Documentation}
 \hypertarget{class_benchmark_aee0beda65009e7334d34c5957f78c49a}{\index{Benchmark@{Benchmark}!nazwy@{nazwy}}
 \index{nazwy@{nazwy}!Benchmark@{Benchmark}}
 \subsubsection[{nazwy}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Benchmark\-::nazwy\mbox{[}4\mbox{]} = \{\char`\"{}ret\-\_\-data1.\-txt\char`\"{}, \char`\"{}ret\-\_\-data2.\-txt\char`\"{}, \char`\"{}ret\-\_\-data3.\-txt\char`\"{}, \char`\"{}ret\-\_\-data4.\-txt\char`\"{}\}\hspace{0.3cm}{\ttfamily [private]}}}\label{class_benchmark_aee0beda65009e7334d34c5957f78c49a}
 
 
-Definicja w linii 16 pliku benchmark.\-hh.
+Definition at line 16 of file benchmark.\-hh.
 
 
 
-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
 \item 
 \hyperlink{benchmark_8hh}{benchmark.\-hh}\item 
 \hyperlink{benchmark_8cpp}{benchmark.\-cpp}\end{DoxyCompactItemize}

@@ -26,6 +26,7 @@ int main() {
     std::cin >> data[i];
 
   Benchmark *bench = new Benchmark();//klasa testujaca czas
+
   //AlgorithmStos *stos = new AlgorithmStos(data);
   //AlgorithmKolejka *kolejka = new AlgorithmKolejka(data);
   //AlgorithmLista *lista = new AlgorithmLista(data);

@@ -14,6 +14,6 @@ void Algorithm2::runAlgorithm(int _border){
 
 void Algorithm2::runAlgorithmSzybkieSortowanie(int _border){
 
-  tablista.quicksort(0,tablista.rozmiar());
+  tablista.quicksort(0,_border-1);
 
 }

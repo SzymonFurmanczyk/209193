@@ -56,40 +56,57 @@ int TabLista::remove(int _f) {
 
 void TabLista::quicksort(int lewy,int prawy) {
 
-  int srodek=(lewy+prawy)/2;
+  int srodek=(lewy+prawy)/2; //wybor pivota dla sortowania
+  int temp;
+  int p_pivot;
 
-  int tmp = tab[prawy];
-  tab[prawy] = tab[srodek];
-  tab[srodek] = tmp;
+  temp = tab[srodek];
+  tab[srodek]=tab[prawy];
+  tab[prawy]=temp;
 
-  int j=0;
-  while(j<srodek)
+  int i=lewy;
+  int j=prawy;
+
+  while(i<j)
     {
-      int i=j;
-      while(tab[i]<tab[j])
-	{
-	  int temp = tab[j];
-	  tab[j]=tab[i];
-	  tab[i]=temp;
-	}
-      if(tab[i]>tab[j])
+      if(tab[i]<=tab[prawy])
 	{
 	  i++;
 	}
-      else{}
+      else
+	{
+	  j--;
+	  temp = tab[i];
+	  tab[i]=tab[j];
+	  tab[j]=temp;
+	}
     }
-
-  if(j>=srodek)
-    {
-      int tmp = tab[prawy];
-      tab[prawy] = tab[srodek];
-      tab[srodek] = tmp; 
-    }
-  else{}
-
-  quicksort(lewy,j);
   
-  quicksort(j+1,prawy);
+  
+  if(tab[prawy]>tab[j])
+    {
+      temp = tab[prawy];
+      tab[prawy] = tab[j+1];
+      tab[j+1] = temp;
+      p_pivot=j+1;
+    }
+  else
+    { 
+      temp = tab[prawy];
+      tab[prawy] = tab[j];
+      tab[j] = temp;
+      p_pivot=j;
+    }
+
+  if(p_pivot-lewy>2)
+    {
+       quicksort(lewy,p_pivot-1);  
+    }
+  
+  if(prawy-p_pivot>2)
+    {
+      quicksort(p_pivot+1,prawy);
+    }
 }
 
 int TabLista::rozmiar()

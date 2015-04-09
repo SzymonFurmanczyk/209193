@@ -7,6 +7,7 @@ var annotated =
     [ "Benchmark", "class_benchmark.html", "class_benchmark" ],
     [ "Kolejka", "class_kolejka.html", "class_kolejka" ],
     [ "Lista", "class_lista.html", "class_lista" ],
+    [ "Mnozenie", "class_mnozenie.html", "class_mnozenie" ],
     [ "Stos", "class_stos.html", "class_stos" ],
     [ "TabLista", "class_tab_lista.html", "class_tab_lista" ]
 ];
