@@ -1,4 +1,4 @@
 <map id="Benchmark::testAlgorithm" name="Benchmark::testAlgorithm">
-<area shape="rect" id="node3" href="$class_benchmark.html#a6363894c058e8bfe146de09d7126b29c" title="Metoda uruchamiania algorytmu. Metoda sluzy do wykonywania danego algorytmu. W klasie Benchmark nie m..." alt="" coords="248,5,413,33"/>
-<area shape="rect" id="node5" href="$class_benchmark.html#a66dac1629afaba9ab4e139e3cad8a856" title="Benchmark::runAlgorithmSzybkie\lSortowanie" alt="" coords="225,55,436,99"/>
+<area shape="rect" id="node2" href="$class_benchmark.html#a6363894c058e8bfe146de09d7126b29c" title="Metoda uruchamiania algorytmu. Metoda sluzy do wykonywania danego algorytmu. W klasie Benchmark nie m..." alt="" coords="247,5,414,32"/>
+<area shape="rect" id="node3" href="$class_benchmark.html#a05a8e8b9b80949f51c2ccc47e08dedbb" title="Metoda uruchamiania algorytmu szybkiego sortowania. Metoda sluzy do wykonywania danego algorytmu..." alt="" coords="225,57,437,98"/>
 </map>

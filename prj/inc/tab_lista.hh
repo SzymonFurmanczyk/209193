@@ -61,17 +61,17 @@ public:
   int remove(int _f);
 
   /*!
-   *\brief Metoda rozmiaru tablicy.
-   *Metoda zwraca ilosc elementow obecnych na tablicy.
-   *\return - ilosc elementow na tablicy.
+   *\brief Metoda zwracania indeksu ostatniego elementu tablicy.
+   *Metoda sluzy do zwrócenia ilości elementow tablicy.
+   *\return - indeks ostatniego elementu.
    */
   int rozmiar();
 
   /*!
-   *\brief Metoda sortujaca tablice.
-   *Metoda sluzy do sortowania tablicy.
-   *\param[in] a - lewy zakres sortowania.
-   *\param[in] b - prawy zakres sortowania.
+   *\brief Metoda sortująca.
+   *Metoda sluzy do sortowania przedziału tablicy.
+   *\param[in] a - lewa granica przedziału sortowania.
+   *\param[in] b - prawa granica przedziału sortowania.
    */
   void quicksort(int a,int b);
 

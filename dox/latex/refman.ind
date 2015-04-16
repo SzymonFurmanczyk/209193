@@ -1,0 +1,279 @@
+\begin{theindex}
+
+  \item {$\sim$\+Algorithm2}
+    \subitem {Algorithm2}, \hyperpage{10}
+  \item {$\sim$\+Algorithm\+Kolejka}
+    \subitem {Algorithm\+Kolejka}, \hyperpage{13}
+  \item {$\sim$\+Algorithm\+Lista}
+    \subitem {Algorithm\+Lista}, \hyperpage{16}
+  \item {$\sim$\+Algorithm\+Stos}
+    \subitem {Algorithm\+Stos}, \hyperpage{18}
+  \item {$\sim$\+Benchmark}
+    \subitem {Benchmark}, \hyperpage{20}
+  \item {$\sim$\+Kolejka}
+    \subitem {Kolejka}, \hyperpage{22}
+  \item {$\sim$\+Lista}
+    \subitem {Lista}, \hyperpage{26}
+  \item {$\sim$\+Mnozenie}
+    \subitem {Mnozenie}, \hyperpage{29}
+  \item {$\sim$\+Stos}
+    \subitem {Stos}, \hyperpage{31}
+  \item {$\sim$\+Tab\+Lista}
+    \subitem {Tab\+Lista}, \hyperpage{34}
+
+  \indexspace
+
+  \item {algorithm1.\+cpp}, \hyperpage{37}
+  \item {algorithm1.\+hh}, \hyperpage{37}
+  \item {Algorithm2}, \hyperpage{9}
+    \subitem {$\sim$\+Algorithm2}, \hyperpage{10}
+    \subitem {Algorithm2}, \hyperpage{10}
+    \subitem {run\+Algorithm}, \hyperpage{10}
+    \subitem {run\+Algorithm\+Szybkie\+Sortowanie}, \hyperpage{11}
+    \subitem {tab}, \hyperpage{11}
+    \subitem {tablista}, \hyperpage{11}
+    \subitem {test\+Algorithm}, \hyperpage{11}
+  \item {algorithm2.\+cpp}, \hyperpage{38}
+  \item {algorithm2.\+hh}, \hyperpage{38}
+  \item {algorithm\+\_\+kolejka.\+cpp}, \hyperpage{39}
+  \item {algorithm\+\_\+kolejka.\+hh}, \hyperpage{39}
+  \item {algorithm\+\_\+lista.\+cpp}, \hyperpage{39}
+  \item {algorithm\+\_\+lista.\+hh}, \hyperpage{40}
+  \item {algorithm\+\_\+stos.\+cpp}, \hyperpage{40}
+  \item {algorithm\+\_\+stos.\+hh}, \hyperpage{41}
+  \item {Algorithm\+Kolejka}, \hyperpage{12}
+    \subitem {$\sim$\+Algorithm\+Kolejka}, \hyperpage{13}
+    \subitem {Algorithm\+Kolejka}, \hyperpage{13}
+    \subitem {kolejka}, \hyperpage{14}
+    \subitem {run\+Algorithm}, \hyperpage{13}
+    \subitem {tab}, \hyperpage{14}
+    \subitem {test\+Algorithm}, \hyperpage{14}
+  \item {Algorithm\+Lista}, \hyperpage{14}
+    \subitem {$\sim$\+Algorithm\+Lista}, \hyperpage{16}
+    \subitem {Algorithm\+Lista}, \hyperpage{15}
+    \subitem {lista}, \hyperpage{16}
+    \subitem {run\+Algorithm}, \hyperpage{16}
+    \subitem {tab}, \hyperpage{16}
+    \subitem {test\+Algorithm}, \hyperpage{16}
+  \item {Algorithm\+Stos}, \hyperpage{17}
+    \subitem {$\sim$\+Algorithm\+Stos}, \hyperpage{18}
+    \subitem {Algorithm\+Stos}, \hyperpage{18}
+    \subitem {run\+Algorithm}, \hyperpage{18}
+    \subitem {stos}, \hyperpage{19}
+    \subitem {tab}, \hyperpage{19}
+    \subitem {test\+Algorithm}, \hyperpage{18}
+
+  \indexspace
+
+  \item {Benchmark}, \hyperpage{19}
+    \subitem {$\sim$\+Benchmark}, \hyperpage{20}
+    \subitem {Benchmark}, \hyperpage{20}
+    \subitem {nazwy}, \hyperpage{21}
+    \subitem {run\+Algorithm}, \hyperpage{20}
+    \subitem {run\+Algorithm\+Szybkie\+Sortowanie}, \hyperpage{20}
+    \subitem {test\+Algorithm}, \hyperpage{21}
+  \item {benchmark.\+cpp}, \hyperpage{41}
+    \subitem {L\+E\+N\+G\+T\+H}, \hyperpage{42}
+    \subitem {R\+E\+P\+E\+A\+T\+S}, \hyperpage{42}
+  \item {benchmark.\+hh}, \hyperpage{42}
+    \subitem {S\+I\+Z\+E}, \hyperpage{43}
+
+  \indexspace
+
+  \item {decrease}
+    \subitem {Stos}, \hyperpage{31}
+  \item {dequeue}
+    \subitem {Kolejka}, \hyperpage{23}
+
+  \indexspace
+
+  \item {elem}
+    \subitem {Lista\+::\+Komorka}, \hyperpage{25}
+  \item {enqueue}
+    \subitem {Kolejka}, \hyperpage{23}
+
+  \indexspace
+
+  \item {f}
+    \subitem {Kolejka}, \hyperpage{24}
+
+  \indexspace
+
+  \item {generate.\+cpp}, \hyperpage{43}
+    \subitem {main}, \hyperpage{43}
+    \subitem {S\+I\+Z\+E}, \hyperpage{43}
+
+  \indexspace
+
+  \item {head}
+    \subitem {Lista}, \hyperpage{27}
+
+  \indexspace
+
+  \item {increase}
+    \subitem {Kolejka}, \hyperpage{23}
+    \subitem {Stos}, \hyperpage{31}
+    \subitem {Tab\+Lista}, \hyperpage{34}
+  \item {insert}
+    \subitem {Lista}, \hyperpage{26}
+    \subitem {Tab\+Lista}, \hyperpage{34}
+
+  \indexspace
+
+  \item {Kolejka}, \hyperpage{21}
+    \subitem {$\sim$\+Kolejka}, \hyperpage{22}
+    \subitem {dequeue}, \hyperpage{23}
+    \subitem {enqueue}, \hyperpage{23}
+    \subitem {f}, \hyperpage{24}
+    \subitem {increase}, \hyperpage{23}
+    \subitem {Kolejka}, \hyperpage{22}
+    \subitem {r}, \hyperpage{24}
+    \subitem {size}, \hyperpage{24}
+    \subitem {tab}, \hyperpage{24}
+  \item {kolejka}
+    \subitem {Algorithm\+Kolejka}, \hyperpage{14}
+  \item {kolejka.\+cpp}, \hyperpage{44}
+  \item {kolejka.\+hh}, \hyperpage{44}
+  \item {Komorka}
+    \subitem {Lista\+::\+Komorka}, \hyperpage{25}
+
+  \indexspace
+
+  \item {L\+E\+N\+G\+T\+H}
+    \subitem {benchmark.\+cpp}, \hyperpage{42}
+  \item {last}
+    \subitem {Stos}, \hyperpage{32}
+    \subitem {Tab\+Lista}, \hyperpage{36}
+  \item {Lista}, \hyperpage{25}
+    \subitem {$\sim$\+Lista}, \hyperpage{26}
+    \subitem {head}, \hyperpage{27}
+    \subitem {insert}, \hyperpage{26}
+    \subitem {Lista}, \hyperpage{26}
+    \subitem {remove}, \hyperpage{27}
+    \subitem {tail}, \hyperpage{27}
+  \item {lista}
+    \subitem {Algorithm\+Lista}, \hyperpage{16}
+  \item {lista.\+cpp}, \hyperpage{45}
+  \item {lista.\+hh}, \hyperpage{45}
+  \item {Lista\+::\+Komorka}, \hyperpage{24}
+    \subitem {elem}, \hyperpage{25}
+    \subitem {Komorka}, \hyperpage{25}
+    \subitem {next}, \hyperpage{25}
+
+  \indexspace
+
+  \item {main}
+    \subitem {generate.\+cpp}, \hyperpage{43}
+    \subitem {main.\+cpp}, \hyperpage{46}
+  \item {main.\+cpp}, \hyperpage{46}
+    \subitem {main}, \hyperpage{46}
+  \item {Mnozenie}, \hyperpage{27}
+    \subitem {$\sim$\+Mnozenie}, \hyperpage{29}
+    \subitem {Mnozenie}, \hyperpage{29}
+    \subitem {run\+Algorithm}, \hyperpage{29}
+    \subitem {tab}, \hyperpage{29}
+    \subitem {test\+Algorithm}, \hyperpage{29}
+
+  \indexspace
+
+  \item {nazwy}
+    \subitem {Benchmark}, \hyperpage{21}
+  \item {next}
+    \subitem {Lista\+::\+Komorka}, \hyperpage{25}
+
+  \indexspace
+
+  \item {pop}
+    \subitem {Stos}, \hyperpage{31}
+  \item {push}
+    \subitem {Stos}, \hyperpage{32}
+
+  \indexspace
+
+  \item {quicksort}
+    \subitem {Tab\+Lista}, \hyperpage{35}
+
+  \indexspace
+
+  \item {r}
+    \subitem {Kolejka}, \hyperpage{24}
+  \item {R\+E\+P\+E\+A\+T\+S}
+    \subitem {benchmark.\+cpp}, \hyperpage{42}
+  \item {remove}
+    \subitem {Lista}, \hyperpage{27}
+    \subitem {Tab\+Lista}, \hyperpage{35}
+  \item {rozmiar}
+    \subitem {Tab\+Lista}, \hyperpage{35}
+  \item {run\+Algorithm}
+    \subitem {Algorithm2}, \hyperpage{10}
+    \subitem {Algorithm\+Kolejka}, \hyperpage{13}
+    \subitem {Algorithm\+Lista}, \hyperpage{16}
+    \subitem {Algorithm\+Stos}, \hyperpage{18}
+    \subitem {Benchmark}, \hyperpage{20}
+    \subitem {Mnozenie}, \hyperpage{29}
+  \item {run\+Algorithm\+Szybkie\+Sortowanie}
+    \subitem {Algorithm2}, \hyperpage{11}
+    \subitem {Benchmark}, \hyperpage{20}
+
+  \indexspace
+
+  \item {S\+I\+Z\+E}
+    \subitem {benchmark.\+hh}, \hyperpage{43}
+    \subitem {generate.\+cpp}, \hyperpage{43}
+  \item {size}
+    \subitem {Kolejka}, \hyperpage{24}
+    \subitem {Stos}, \hyperpage{32}
+    \subitem {Tab\+Lista}, \hyperpage{36}
+  \item {Stos}, \hyperpage{30}
+    \subitem {$\sim$\+Stos}, \hyperpage{31}
+    \subitem {decrease}, \hyperpage{31}
+    \subitem {increase}, \hyperpage{31}
+    \subitem {last}, \hyperpage{32}
+    \subitem {pop}, \hyperpage{31}
+    \subitem {push}, \hyperpage{32}
+    \subitem {size}, \hyperpage{32}
+    \subitem {Stos}, \hyperpage{30}
+    \subitem {tab}, \hyperpage{33}
+  \item {stos}
+    \subitem {Algorithm\+Stos}, \hyperpage{19}
+  \item {stos.\+cpp}, \hyperpage{46}
+  \item {stos.\+hh}, \hyperpage{47}
+  \item {strona-\/glowna.\+dox}, \hyperpage{47}
+
+  \indexspace
+
+  \item {tab}
+    \subitem {Algorithm2}, \hyperpage{11}
+    \subitem {Algorithm\+Kolejka}, \hyperpage{14}
+    \subitem {Algorithm\+Lista}, \hyperpage{16}
+    \subitem {Algorithm\+Stos}, \hyperpage{19}
+    \subitem {Kolejka}, \hyperpage{24}
+    \subitem {Mnozenie}, \hyperpage{29}
+    \subitem {Stos}, \hyperpage{33}
+    \subitem {Tab\+Lista}, \hyperpage{36}
+  \item {tab\+\_\+lista.\+cpp}, \hyperpage{47}
+  \item {tab\+\_\+lista.\+hh}, \hyperpage{48}
+  \item {Tab\+Lista}, \hyperpage{33}
+    \subitem {$\sim$\+Tab\+Lista}, \hyperpage{34}
+    \subitem {increase}, \hyperpage{34}
+    \subitem {insert}, \hyperpage{34}
+    \subitem {last}, \hyperpage{36}
+    \subitem {quicksort}, \hyperpage{35}
+    \subitem {remove}, \hyperpage{35}
+    \subitem {rozmiar}, \hyperpage{35}
+    \subitem {size}, \hyperpage{36}
+    \subitem {tab}, \hyperpage{36}
+    \subitem {Tab\+Lista}, \hyperpage{34}
+  \item {tablista}
+    \subitem {Algorithm2}, \hyperpage{11}
+  \item {tail}
+    \subitem {Lista}, \hyperpage{27}
+  \item {test\+Algorithm}
+    \subitem {Algorithm2}, \hyperpage{11}
+    \subitem {Algorithm\+Kolejka}, \hyperpage{14}
+    \subitem {Algorithm\+Lista}, \hyperpage{16}
+    \subitem {Algorithm\+Stos}, \hyperpage{18}
+    \subitem {Benchmark}, \hyperpage{21}
+    \subitem {Mnozenie}, \hyperpage{29}
+
+\end{theindex}

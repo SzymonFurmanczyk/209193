@@ -1,0 +1,179 @@
+\contentsline {chapter}{\numberline {1}Laboratorium 4}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}
+\contentsline {chapter}{\numberline {5}Class Documentation}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Algorithm2 Class Reference}{9}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{10}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Constructor \& Destructor Documentation}{10}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Algorithm2}{10}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Algorithm2}{10}{subsubsection.5.1.2.2}
+\contentsline {subsubsection}{\numberline {5.1.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm2}{10}{subsubsection.5.1.2.3}
+\contentsline {subsection}{\numberline {5.1.3}Member Function Documentation}{10}{subsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.3.1}run\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{10}{subsubsection.5.1.3.1}
+\contentsline {subsubsection}{\numberline {5.1.3.2}run\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Szybkie\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sortowanie}{11}{subsubsection.5.1.3.2}
+\contentsline {subsubsection}{\numberline {5.1.3.3}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{11}{subsubsection.5.1.3.3}
+\contentsline {subsection}{\numberline {5.1.4}Member Data Documentation}{11}{subsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.4.1}tab}{11}{subsubsection.5.1.4.1}
+\contentsline {subsubsection}{\numberline {5.1.4.2}tablista}{11}{subsubsection.5.1.4.2}
+\contentsline {section}{\numberline {5.2}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Kolejka Class Reference}{12}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{13}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Constructor \& Destructor Documentation}{13}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Kolejka}{13}{subsubsection.5.2.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Kolejka}{13}{subsubsection.5.2.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Kolejka}{13}{subsubsection.5.2.2.3}
+\contentsline {subsection}{\numberline {5.2.3}Member Function Documentation}{13}{subsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.3.1}run\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{13}{subsubsection.5.2.3.1}
+\contentsline {subsubsection}{\numberline {5.2.3.2}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{14}{subsubsection.5.2.3.2}
+\contentsline {subsection}{\numberline {5.2.4}Member Data Documentation}{14}{subsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.4.1}kolejka}{14}{subsubsection.5.2.4.1}
+\contentsline {subsubsection}{\numberline {5.2.4.2}tab}{14}{subsubsection.5.2.4.2}
+\contentsline {section}{\numberline {5.3}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Lista Class Reference}{14}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{15}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Constructor \& Destructor Documentation}{15}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Lista}{15}{subsubsection.5.3.2.1}
+\contentsline {subsubsection}{\numberline {5.3.2.2}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Lista}{16}{subsubsection.5.3.2.2}
+\contentsline {subsubsection}{\numberline {5.3.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Lista}{16}{subsubsection.5.3.2.3}
+\contentsline {subsection}{\numberline {5.3.3}Member Function Documentation}{16}{subsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3.1}run\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{16}{subsubsection.5.3.3.1}
+\contentsline {subsubsection}{\numberline {5.3.3.2}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{16}{subsubsection.5.3.3.2}
+\contentsline {subsection}{\numberline {5.3.4}Member Data Documentation}{16}{subsection.5.3.4}
+\contentsline {subsubsection}{\numberline {5.3.4.1}lista}{16}{subsubsection.5.3.4.1}
+\contentsline {subsubsection}{\numberline {5.3.4.2}tab}{16}{subsubsection.5.3.4.2}
+\contentsline {section}{\numberline {5.4}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Stos Class Reference}{17}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{18}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Constructor \& Destructor Documentation}{18}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Stos}{18}{subsubsection.5.4.2.1}
+\contentsline {subsubsection}{\numberline {5.4.2.2}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Stos}{18}{subsubsection.5.4.2.2}
+\contentsline {subsubsection}{\numberline {5.4.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Stos}{18}{subsubsection.5.4.2.3}
+\contentsline {subsection}{\numberline {5.4.3}Member Function Documentation}{18}{subsection.5.4.3}
+\contentsline {subsubsection}{\numberline {5.4.3.1}run\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{18}{subsubsection.5.4.3.1}
+\contentsline {subsubsection}{\numberline {5.4.3.2}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{19}{subsubsection.5.4.3.2}
+\contentsline {subsection}{\numberline {5.4.4}Member Data Documentation}{19}{subsection.5.4.4}
+\contentsline {subsubsection}{\numberline {5.4.4.1}stos}{19}{subsubsection.5.4.4.1}
+\contentsline {subsubsection}{\numberline {5.4.4.2}tab}{19}{subsubsection.5.4.4.2}
+\contentsline {section}{\numberline {5.5}Benchmark Class Reference}{19}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{20}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Constructor \& Destructor Documentation}{20}{subsection.5.5.2}
+\contentsline {subsubsection}{\numberline {5.5.2.1}Benchmark}{20}{subsubsection.5.5.2.1}
+\contentsline {subsubsection}{\numberline {5.5.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Benchmark}{20}{subsubsection.5.5.2.2}
+\contentsline {subsection}{\numberline {5.5.3}Member Function Documentation}{20}{subsection.5.5.3}
+\contentsline {subsubsection}{\numberline {5.5.3.1}run\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{20}{subsubsection.5.5.3.1}
+\contentsline {subsubsection}{\numberline {5.5.3.2}run\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Szybkie\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sortowanie}{20}{subsubsection.5.5.3.2}
+\contentsline {subsubsection}{\numberline {5.5.3.3}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{21}{subsubsection.5.5.3.3}
+\contentsline {subsection}{\numberline {5.5.4}Member Data Documentation}{21}{subsection.5.5.4}
+\contentsline {subsubsection}{\numberline {5.5.4.1}nazwy}{21}{subsubsection.5.5.4.1}
+\contentsline {section}{\numberline {5.6}Kolejka Class Reference}{21}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{22}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Constructor \& Destructor Documentation}{22}{subsection.5.6.2}
+\contentsline {subsubsection}{\numberline {5.6.2.1}Kolejka}{22}{subsubsection.5.6.2.1}
+\contentsline {subsubsection}{\numberline {5.6.2.2}Kolejka}{22}{subsubsection.5.6.2.2}
+\contentsline {subsubsection}{\numberline {5.6.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Kolejka}{22}{subsubsection.5.6.2.3}
+\contentsline {subsection}{\numberline {5.6.3}Member Function Documentation}{23}{subsection.5.6.3}
+\contentsline {subsubsection}{\numberline {5.6.3.1}dequeue}{23}{subsubsection.5.6.3.1}
+\contentsline {subsubsection}{\numberline {5.6.3.2}enqueue}{23}{subsubsection.5.6.3.2}
+\contentsline {subsubsection}{\numberline {5.6.3.3}increase}{23}{subsubsection.5.6.3.3}
+\contentsline {subsection}{\numberline {5.6.4}Member Data Documentation}{24}{subsection.5.6.4}
+\contentsline {subsubsection}{\numberline {5.6.4.1}f}{24}{subsubsection.5.6.4.1}
+\contentsline {subsubsection}{\numberline {5.6.4.2}r}{24}{subsubsection.5.6.4.2}
+\contentsline {subsubsection}{\numberline {5.6.4.3}size}{24}{subsubsection.5.6.4.3}
+\contentsline {subsubsection}{\numberline {5.6.4.4}tab}{24}{subsubsection.5.6.4.4}
+\contentsline {section}{\numberline {5.7}Lista\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}:\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}:Komorka Struct Reference}{24}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{25}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Constructor \& Destructor Documentation}{25}{subsection.5.7.2}
+\contentsline {subsubsection}{\numberline {5.7.2.1}Komorka}{25}{subsubsection.5.7.2.1}
+\contentsline {subsection}{\numberline {5.7.3}Member Data Documentation}{25}{subsection.5.7.3}
+\contentsline {subsubsection}{\numberline {5.7.3.1}elem}{25}{subsubsection.5.7.3.1}
+\contentsline {subsubsection}{\numberline {5.7.3.2}next}{25}{subsubsection.5.7.3.2}
+\contentsline {section}{\numberline {5.8}Lista Class Reference}{25}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Detailed Description}{26}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Constructor \& Destructor Documentation}{26}{subsection.5.8.2}
+\contentsline {subsubsection}{\numberline {5.8.2.1}Lista}{26}{subsubsection.5.8.2.1}
+\contentsline {subsubsection}{\numberline {5.8.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Lista}{26}{subsubsection.5.8.2.2}
+\contentsline {subsection}{\numberline {5.8.3}Member Function Documentation}{26}{subsection.5.8.3}
+\contentsline {subsubsection}{\numberline {5.8.3.1}insert}{26}{subsubsection.5.8.3.1}
+\contentsline {subsubsection}{\numberline {5.8.3.2}remove}{27}{subsubsection.5.8.3.2}
+\contentsline {subsection}{\numberline {5.8.4}Member Data Documentation}{27}{subsection.5.8.4}
+\contentsline {subsubsection}{\numberline {5.8.4.1}head}{27}{subsubsection.5.8.4.1}
+\contentsline {subsubsection}{\numberline {5.8.4.2}tail}{27}{subsubsection.5.8.4.2}
+\contentsline {section}{\numberline {5.9}Mnozenie Class Reference}{27}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Detailed Description}{29}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}Constructor \& Destructor Documentation}{29}{subsection.5.9.2}
+\contentsline {subsubsection}{\numberline {5.9.2.1}Mnozenie}{29}{subsubsection.5.9.2.1}
+\contentsline {subsubsection}{\numberline {5.9.2.2}Mnozenie}{29}{subsubsection.5.9.2.2}
+\contentsline {subsubsection}{\numberline {5.9.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Mnozenie}{29}{subsubsection.5.9.2.3}
+\contentsline {subsection}{\numberline {5.9.3}Member Function Documentation}{29}{subsection.5.9.3}
+\contentsline {subsubsection}{\numberline {5.9.3.1}run\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{29}{subsubsection.5.9.3.1}
+\contentsline {subsubsection}{\numberline {5.9.3.2}test\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Algorithm}{29}{subsubsection.5.9.3.2}
+\contentsline {subsection}{\numberline {5.9.4}Member Data Documentation}{29}{subsection.5.9.4}
+\contentsline {subsubsection}{\numberline {5.9.4.1}tab}{29}{subsubsection.5.9.4.1}
+\contentsline {section}{\numberline {5.10}Stos Class Reference}{30}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Detailed Description}{30}{subsection.5.10.1}
+\contentsline {subsection}{\numberline {5.10.2}Constructor \& Destructor Documentation}{30}{subsection.5.10.2}
+\contentsline {subsubsection}{\numberline {5.10.2.1}Stos}{30}{subsubsection.5.10.2.1}
+\contentsline {subsubsection}{\numberline {5.10.2.2}Stos}{30}{subsubsection.5.10.2.2}
+\contentsline {subsubsection}{\numberline {5.10.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Stos}{31}{subsubsection.5.10.2.3}
+\contentsline {subsection}{\numberline {5.10.3}Member Function Documentation}{31}{subsection.5.10.3}
+\contentsline {subsubsection}{\numberline {5.10.3.1}decrease}{31}{subsubsection.5.10.3.1}
+\contentsline {subsubsection}{\numberline {5.10.3.2}increase}{31}{subsubsection.5.10.3.2}
+\contentsline {subsubsection}{\numberline {5.10.3.3}pop}{31}{subsubsection.5.10.3.3}
+\contentsline {subsubsection}{\numberline {5.10.3.4}push}{32}{subsubsection.5.10.3.4}
+\contentsline {subsection}{\numberline {5.10.4}Member Data Documentation}{32}{subsection.5.10.4}
+\contentsline {subsubsection}{\numberline {5.10.4.1}last}{32}{subsubsection.5.10.4.1}
+\contentsline {subsubsection}{\numberline {5.10.4.2}size}{33}{subsubsection.5.10.4.2}
+\contentsline {subsubsection}{\numberline {5.10.4.3}tab}{33}{subsubsection.5.10.4.3}
+\contentsline {section}{\numberline {5.11}Tab\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Lista Class Reference}{33}{section.5.11}
+\contentsline {subsection}{\numberline {5.11.1}Detailed Description}{34}{subsection.5.11.1}
+\contentsline {subsection}{\numberline {5.11.2}Constructor \& Destructor Documentation}{34}{subsection.5.11.2}
+\contentsline {subsubsection}{\numberline {5.11.2.1}Tab\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Lista}{34}{subsubsection.5.11.2.1}
+\contentsline {subsubsection}{\numberline {5.11.2.2}Tab\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Lista}{34}{subsubsection.5.11.2.2}
+\contentsline {subsubsection}{\numberline {5.11.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Tab\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Lista}{34}{subsubsection.5.11.2.3}
+\contentsline {subsection}{\numberline {5.11.3}Member Function Documentation}{34}{subsection.5.11.3}
+\contentsline {subsubsection}{\numberline {5.11.3.1}increase}{34}{subsubsection.5.11.3.1}
+\contentsline {subsubsection}{\numberline {5.11.3.2}insert}{34}{subsubsection.5.11.3.2}
+\contentsline {subsubsection}{\numberline {5.11.3.3}quicksort}{35}{subsubsection.5.11.3.3}
+\contentsline {subsubsection}{\numberline {5.11.3.4}remove}{35}{subsubsection.5.11.3.4}
+\contentsline {subsubsection}{\numberline {5.11.3.5}rozmiar}{35}{subsubsection.5.11.3.5}
+\contentsline {subsection}{\numberline {5.11.4}Member Data Documentation}{36}{subsection.5.11.4}
+\contentsline {subsubsection}{\numberline {5.11.4.1}last}{36}{subsubsection.5.11.4.1}
+\contentsline {subsubsection}{\numberline {5.11.4.2}size}{36}{subsubsection.5.11.4.2}
+\contentsline {subsubsection}{\numberline {5.11.4.3}tab}{36}{subsubsection.5.11.4.3}
+\contentsline {chapter}{\numberline {6}File Documentation}{37}{chapter.6}
+\contentsline {section}{\numberline {6.1}algorithm1.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{37}{section.6.1}
+\contentsline {section}{\numberline {6.2}algorithm1.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{37}{section.6.2}
+\contentsline {section}{\numberline {6.3}algorithm2.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{38}{section.6.3}
+\contentsline {section}{\numberline {6.4}algorithm2.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{38}{section.6.4}
+\contentsline {section}{\numberline {6.5}algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}kolejka.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{39}{section.6.5}
+\contentsline {section}{\numberline {6.6}algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}kolejka.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{39}{section.6.6}
+\contentsline {section}{\numberline {6.7}algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}lista.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{39}{section.6.7}
+\contentsline {section}{\numberline {6.8}algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}lista.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{40}{section.6.8}
+\contentsline {section}{\numberline {6.9}algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}stos.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{40}{section.6.9}
+\contentsline {section}{\numberline {6.10}algorithm\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}stos.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{41}{section.6.10}
+\contentsline {section}{\numberline {6.11}benchmark.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{41}{section.6.11}
+\contentsline {subsection}{\numberline {6.11.1}Macro Definition Documentation}{42}{subsection.6.11.1}
+\contentsline {subsubsection}{\numberline {6.11.1.1}L\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}E\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}N\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}G\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}T\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}H}{42}{subsubsection.6.11.1.1}
+\contentsline {subsubsection}{\numberline {6.11.1.2}R\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}E\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}P\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}E\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}A\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}T\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}S}{42}{subsubsection.6.11.1.2}
+\contentsline {section}{\numberline {6.12}benchmark.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{42}{section.6.12}
+\contentsline {subsection}{\numberline {6.12.1}Macro Definition Documentation}{43}{subsection.6.12.1}
+\contentsline {subsubsection}{\numberline {6.12.1.1}S\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}I\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}E}{43}{subsubsection.6.12.1.1}
+\contentsline {section}{\numberline {6.13}generate.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{43}{section.6.13}
+\contentsline {subsection}{\numberline {6.13.1}Macro Definition Documentation}{43}{subsection.6.13.1}
+\contentsline {subsubsection}{\numberline {6.13.1.1}S\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}I\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}E}{43}{subsubsection.6.13.1.1}
+\contentsline {subsection}{\numberline {6.13.2}Function Documentation}{43}{subsection.6.13.2}
+\contentsline {subsubsection}{\numberline {6.13.2.1}main}{43}{subsubsection.6.13.2.1}
+\contentsline {section}{\numberline {6.14}kolejka.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{44}{section.6.14}
+\contentsline {section}{\numberline {6.15}kolejka.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{44}{section.6.15}
+\contentsline {section}{\numberline {6.16}lista.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{45}{section.6.16}
+\contentsline {section}{\numberline {6.17}lista.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{45}{section.6.17}
+\contentsline {section}{\numberline {6.18}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{46}{section.6.18}
+\contentsline {subsection}{\numberline {6.18.1}Function Documentation}{46}{subsection.6.18.1}
+\contentsline {subsubsection}{\numberline {6.18.1.1}main}{46}{subsubsection.6.18.1.1}
+\contentsline {section}{\numberline {6.19}stos.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{46}{section.6.19}
+\contentsline {section}{\numberline {6.20}stos.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{47}{section.6.20}
+\contentsline {section}{\numberline {6.21}strona-\/glowna.dox File Reference}{47}{section.6.21}
+\contentsline {section}{\numberline {6.22}tab\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}lista.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{47}{section.6.22}
+\contentsline {section}{\numberline {6.23}tab\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}lista.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}hh File Reference}{48}{section.6.23}
+\contentsline {chapter}{Index}{49}{section*.43}

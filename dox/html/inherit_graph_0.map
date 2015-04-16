@@ -1,8 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_benchmark.html" title="Klasa Benchmark modelujaca program benchmarkujacy. Obiekt tego typu reprezentuje program sprawdzajacy..." alt="" coords="5,106,93,134"/>
-<area shape="rect" id="node3" href="$class_algorithm2.html" title="Klasa Algorithm2 modelujaca algorytm wczytywania do listy tablicowej. Obiekt tego typu reprezentuje a..." alt="" coords="160,5,243,33"/>
-<area shape="rect" id="node5" href="$class_algorithm_kolejka.html" title="Klasa AlgorithmKolejka modelujaca algorytm wczytywania do kolejki. Obiekt tego typu reprezentuje algo..." alt="" coords="141,55,261,83"/>
-<area shape="rect" id="node7" href="$class_algorithm_lista.html" title="Klasa AlgorithmLista modelujaca algorytm wczytywania do kolejki. Obiekt tego typu reprezentuje algory..." alt="" coords="149,106,253,134"/>
-<area shape="rect" id="node9" href="$class_algorithm_stos.html" title="Klasa AlgorithmStos modelujaca algorytm wczytywania do stosu. Obiekt tego typu reprezentuje algorytm ..." alt="" coords="151,157,252,185"/>
-<area shape="rect" id="node11" href="$class_mnozenie.html" title="Klasa Mnozenie modelujaca algorytm mnozenia. Obiekt tego typu reprezentuje algorytm wykonujacy dziala..." alt="" coords="163,207,240,235"/>
+<area shape="rect" id="node1" href="$class_benchmark.html" title="Klasa Benchmark modelujaca program benchmarkujacy. Obiekt tego typu reprezentuje program sprawdzajacy..." alt="" coords="5,107,93,133"/>
+<area shape="rect" id="node2" href="$class_algorithm2.html" title="Klasa Algorithm2 modelujaca algorytm wczytywania do listy tablicowej. Obiekt tego typu reprezentuje a..." alt="" coords="159,5,243,32"/>
+<area shape="rect" id="node3" href="$class_algorithm_kolejka.html" title="Klasa AlgorithmKolejka modelujaca algorytm wczytywania do kolejki. Obiekt tego typu reprezentuje algo..." alt="" coords="141,56,261,83"/>
+<area shape="rect" id="node4" href="$class_algorithm_lista.html" title="Klasa AlgorithmLista modelujaca algorytm wczytywania do kolejki. Obiekt tego typu reprezentuje algory..." alt="" coords="149,107,253,133"/>
+<area shape="rect" id="node5" href="$class_algorithm_stos.html" title="Klasa AlgorithmStos modelujaca algorytm wczytywania do stosu. Obiekt tego typu reprezentuje algorytm ..." alt="" coords="150,157,253,184"/>
+<area shape="rect" id="node6" href="$class_mnozenie.html" title="Klasa Mnozenie modelujaca algorytm mnozenia. Obiekt tego typu reprezentuje algorytm wykonujacy dziala..." alt="" coords="163,208,240,235"/>
 </map>

@@ -23,7 +23,9 @@ int main() {
   int data[SIZE];
 
   for(int i=0; i<SIZE; ++i)
-    std::cin >> data[i];
+    {
+      std::cin >> data[i];
+    }
 
   Benchmark *bench = new Benchmark();//klasa testujaca czas
 

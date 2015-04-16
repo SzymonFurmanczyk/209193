@@ -25,7 +25,7 @@ TabLista::~TabLista() {
 void TabLista::increase() {
   int *nowa = new int[size * 2];
 
-  for (int i=0; i<size; ++i) nowa[i] = tab[i];
+  for (int i=0; i<size; ++i){ nowa[i] = tab[i];};
 
   delete []tab;
   tab = nowa;
@@ -55,61 +55,82 @@ int TabLista::remove(int _f) {
 }
 
 void TabLista::quicksort(int lewy,int prawy) {
+  
+  int srodek=(lewy+prawy)/2;
+  
 
-  int srodek=(lewy+prawy)/2; //wybor pivota dla sortowania
-  int temp;
-  int p_pivot;
-
-  temp = tab[srodek];
-  tab[srodek]=tab[prawy];
-  tab[prawy]=temp;
-
-  int i=lewy;
-  int j=prawy;
-
-  while(i<j)
+  //Optymalizacja wyboru pivota:
+  if(lewy-prawy>7)
     {
-      if(tab[i]<=tab[prawy])
+      if((tab[srodek-1]<=tab[srodek] && tab[srodek]<=tab[srodek+1]) ||
+	 (tab[srodek-1]>=tab[srodek] && tab[srodek]>=tab[srodek+1]))
 	{
-	  i++;
 	}
       else
 	{
-	  j--;
-	  temp = tab[i];
-	  tab[i]=tab[j];
-	  tab[j]=temp;
+	  if((tab[srodek]<=tab[srodek-1] && tab[srodek-1]<=tab[srodek+1]) ||
+	     (tab[srodek]>=tab[srodek-1] && tab[srodek-1]>=tab[srodek+1]))
+	    {
+	      srodek=srodek-1;
+	    }
+	  else
+	    {
+	      srodek=srodek+1;
+	    }
 	}
     }
+  //koniec
   
   
-  if(tab[prawy]>tab[j])
+  int tmp = tab[prawy];
+  tab[prawy] = tab[srodek];
+  tab[srodek] = tmp;
+
+  int j=lewy;
+  int i=prawy;
+  
+  while(j<i)
     {
-      temp = tab[prawy];
-      tab[prawy] = tab[j+1];
-      tab[j+1] = temp;
-      p_pivot=j+1;
+      i--;
+      while(tab[i]<tab[prawy] && j<i)
+	{
+	  int temp = tab[j];
+	  tab[j]=tab[i];
+	  tab[i]=temp;
+	  j++;
+	}
+    }
+ 
+  
+  if(tab[i]<tab[prawy])
+    {
+      int tmp = tab[prawy];
+      tab[prawy] = tab[i+1];
+      tab[i+1] = tmp; 
+      j=j+2;
     }
   else
-    { 
-      temp = tab[prawy];
-      tab[prawy] = tab[j];
-      tab[j] = temp;
-      p_pivot=j;
+    {
+      int tmp = tab[prawy];
+      tab[prawy] = tab[i];
+      tab[i] = tmp;
+      i--;
+      j++;
     }
 
-  if(p_pivot-lewy>2)
+  if(i>lewy)
     {
-       quicksort(lewy,p_pivot-1);  
+      quicksort(lewy,i);
     }
-  
-  if(prawy-p_pivot>2)
+
+  if(j<prawy)
     {
-      quicksort(p_pivot+1,prawy);
+      quicksort(j,prawy);
     }
+
 }
 
 int TabLista::rozmiar()
 {
-  return size;
+  return last;
 }

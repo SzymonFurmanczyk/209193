@@ -1,7 +1,7 @@
 #ifndef BENCHMARK_HH
 #define BENCHMARK_HH
 
-#define SIZE 100
+#define SIZE 10000
 
 /*!
  *\brief Klasa Benchmark modelujaca program benchmarkujacy.
@@ -43,11 +43,15 @@ public:
    *\brief Metoda uruchamiania algorytmu.
    *Metoda sluzy do wykonywania danego algorytmu.
    *W klasie Benchmark nie ma konkretnego dzialania.
-   *\param[in] _border - ilosc elementow dla ktorych algorytm ma wykonac swoje dzialanie.
    */
   virtual void runAlgorithm(int _border) {};
 
-  virtual void runAlgorithmSzybkieSortowanie(int _border) {};
+  /*!
+   *\brief Metoda uruchamiania algorytmu szybkiego sortowania.
+   *Metoda sluzy do wykonywania danego algorytmu.
+   *W klasie Benchmark nie ma konkretnego dzialania.
+   */
+  virtual void runAlgorithmSzybkieSortowanie() {};
 };
 
 #endif

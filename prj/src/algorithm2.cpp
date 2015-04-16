@@ -8,12 +8,13 @@
 void Algorithm2::runAlgorithm(int _border){
 
   for(int i=0; i<_border; ++i)
+    {
     tablista.insert(tab[i]);
+    }
 
 }
 
-void Algorithm2::runAlgorithmSzybkieSortowanie(int _border){
+void Algorithm2::runAlgorithmSzybkieSortowanie(){
 
-  tablista.quicksort(0,_border-1);
-
+  tablista.quicksort(0,tablista.rozmiar()-1);
 }

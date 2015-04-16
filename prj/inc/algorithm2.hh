@@ -50,14 +50,12 @@ public:
    */
   virtual void runAlgorithm(int _border);
 
-
   /*!
-   *\brief Metoda uruchamiania algorytmu sortujacego tablice.
-   *Metoda sluzy do wykonania algorytmu szybkiego sortowania tablicy od najwiekszego do najmniejszego elementu.
-   *Sortuje tablice.
-   *\param[in] _border - zakres sortowania tablicy.
+   *\brief Metoda uruchamiania algorytmu szybkiego sortowania.
+   *Metoda sluzy to wykonywania danego algorytmu.
+   *Sortuje tablicę.
    */
-  virtual void runAlgorithmSzybkieSortowanie(int _border);
+  virtual void runAlgorithmSzybkieSortowanie();
 };
 
 #endif
